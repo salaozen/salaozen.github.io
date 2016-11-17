@@ -5,11 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="ico/favicon.png">
-    <title>Jedy - Bootstrap Landing Page</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <title>Salão Zen</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Raleway:400,300,700">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500" />
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate.css">
@@ -43,16 +44,17 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-                <a class="navbar-brand" href="">Salão Zen</a>
+                <a class="navbar-brand scroll-link" href="#top-content">Salão Zen</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="top-navbar-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a class="scroll-link" href="#top-content">Top</a></li>
-                    <li><a class="scroll-link" href="#features">Features</a></li>
-                    <li><a class="scroll-link" href="#how-it-works">How it works</a></li>
-                    <li><a class="scroll-link" href="#testimonials">Testimonials</a></li>
-                    <li><a class="scroll-link" href="#about-us">About</a></li>
+                    <li><a class="scroll-link" href="#about">Sobre</a></li>
+                    <li><a class="scroll-link" href="#more-features">Funcionalidades</a></li>
+                    <li><a class="scroll-link" href="#how-it-works">Aplicativo</a></li>
+                    <li><a class="scroll-link" href="#testimonials">Clientes</a></li>
+                    <li><a class="scroll-link" href="#about-us">Testimonials</a></li>
+                    <li><a class="scroll-link" href="#about-us">Fale conosco</a></li>
                 </ul>
             </div>
         </div>
@@ -63,47 +65,72 @@
 
         <div class="inner-bg">
             <div class="container">
-                <div class="row centered">
+                <div class="row centered text">
                     <div class="col-lg-12">
-                        <h1>Welcome To <b>Pratt</b></h1>
-                        <h3>Show your product with this handsome theme.</h3>
+                        <h1>Bem-vindo ao <b>Salão Zen</b></h1>
+                        <h3>Seu salão, moderno e descomplicado</h3>
                         <br>
                     </div>
                     <div class="col-lg-2">
                         <h5>Amazing Results</h5>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <img class="hidden-xs hidden-sm hidden-md" src="img/arrow1.png">
+                        <img class="hidden-xs hidden-sm hidden-md" src="img/home/arrow1.png">
                     </div>
                     <div class="col-lg-8">
-                        <img class="img-responsive" src="img/app-bg.png" alt="">
+                        <img class="img-responsive" src="img/home/app-bg.png" alt="">
                     </div>
                     <div class="col-lg-2">
                         <br>
-                        <img class="hidden-xs hidden-sm hidden-md" src="img/arrow2.png">
+                        <img class="hidden-xs hidden-sm hidden-md" src="img/home/arrow2.png">
                         <h5>Awesome Design</h5>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
-
-                <div class="row hidden">
-                    <div class="col-sm-8 col-sm-offset-2 text">
-                        <h1 class="wow fadeInLeftBig">Beautiful <strong>Landing Page</strong></h1>
-                        <div class="description wow fadeInLeftBig">
-                            <p>
-                                This is a free responsive landing page made with the Bootstrap framework. Check it out now. Download it, customize and use it as you like!
-                            </p>
-                        </div>
-                        <div class="top-big-link wow fadeInUp">
-                            <a class="btn btn-link-1" href="http://azmind.com">Download it</a>
-                            <a class="btn btn-link-2 scroll-link" href="#features">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
 
     </div>
+
+    <!-- About -->
+    <div class="about-container section-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 about section-description wow fadeIn">
+                    <h2>Sobre o <strong>Salão Zen</strong></h2>
+                    <div class="divider-1 wow fadeInUp"><span></span></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 section-bottom-button wow fadeInUp">
+                    <a class="btn btn-link-1 scroll-link" href="#more-features">Learn more</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 features-box wow fadeInUp">
+                    <div class="features-box-icon">
+                        <i class="fa fa-magic"></i>
+                    </div>
+                    <h3>Easy To Use</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                </div>
+                <div class="col-sm-4 features-box wow fadeInDown">
+                    <div class="features-box-icon">
+                        <i class="fa fa-thumbs-o-up"></i>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                </div>
+                <div class="col-sm-4 features-box wow fadeInUp">
+                    <div class="features-box-icon">
+                        <i class="fa fa-cog"></i>
+                    </div>
+                    <h3>Uses Bootstrap</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Features -->
     <div class="features-container section-container">
@@ -144,6 +171,7 @@
             </div>
         </div>
     </div>
+
 
     <!-- More features -->
     <div class="more-features-container section-container section-container-gray-bg">
