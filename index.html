@@ -13,11 +13,19 @@
     
     <title>Salão Zen - Plataforma de agendamentos on-line</title>
 
-    <!-- Bootstrap CSS -->
+    <!-- CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet">
+
+    <!-- CONTACT CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" />
+    <link href="contact.css" rel="stylesheet">
+
+    
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="canonical" href="http://www.salaozen.com.br"/>
+    <link rel="canonical" href="http://www.salaozen.com.br/index.html"/>
     <link rel="dns-prefetch" href="//fonts.googleapis.com" />
     <link rel="dns-prefetch" href="//stackpath.bootstrapcdn.com" />
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com" />
@@ -30,7 +38,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body class="background">
     <div class="container-fluid">
       <section>
         <img class="mx-auto d-block" src="logo.png" alt="Salão Zen - Plataforma de agendamentos on-line para salões, esteticas e barbearias" />
@@ -49,26 +57,72 @@
               
               E aí, achou a plataforma interessante? Então venha conhecer o Salão Zen.
             </p>
-            <div class="text-center"><a class="btn">Quero conhecer</a></div>
+            <div class="text-center"><a class="btn btn-contact" data-toggle="modal" data-target=".bd-example-modal-lg">Quero conhecer</a></div>
         </div>
       </header>
+    </div>
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="background">
+              <div class="contact100-form-title text-center">Fale com o Salão Zen</div>
+          </div>
+          <div id="success" class="d-none">
+              Obrigado pelo seu contato!<br/><br/>
+              Em breve estaremos retornando o mesmo para você!
+          </div>
+          <form id="gform" class="container contact100-form validate-form" action="https://script.google.com/macros/s/AKfycbwPyFC8r7ZQSqn5L26aoo9PozoTH_on30UH25zKwoAWoSN0k604/exec" method="POST">
+            <div class="wrap-input100 validate-input" data-validate="Nome é obrigatorio">
+              <span class="label-input100">Nome</span>
+              <input class="input100" type="text" name="name" placeholder="Nome...">
+              <span class="focus-input100"></span>
+            </div>
+        
+            <div class="wrap-input100 validate-input" data-validate="É necessário informar um e-mail valido: ex@abc.xyz">
+              <span class="label-input100">E-mail</span>
+              <input class="input100" type="text" name="email" placeholder="E-mail...">
+              <span class="focus-input100"></span>
+            </div>
+        
+            <div class="wrap-input100 validate-input" data-validate="Telefone é obrigatorio">
+              <span class="label-input100">Telefone</span>
+              <input class="input100" type="tel" name="phone" placeholder="Telefone...">
+              <span class="focus-input100"></span>
+            </div>
+        
+            <div class="wrap-input100 validate-input" data-validate="Estabelecimento é obrigatorio">
+                <span class="label-input100">Nome do estabelecimento</span>
+                <input class="input100" type="text" name="organization" placeholder="Estabelecimento...">
+                <span class="focus-input100"></span>
+            </div>
+        
+            <div class="container-contact100-form-btn">
+              <div class="wrap-contact100-form-btn">
+                <div class="contact100-form-bgbtn"></div>
+                <button class="contact100-form-btn" type="submit">
+                    Conhecer o Salão Zen
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-    <script>
-      $(function(){
-        // $('body').attr('class', 'background' + (Math.floor(Math.random() * 3) + 1));
-      })
-    </script>
+	  <script src="contact.js"></script>
+    
+    
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127257196-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'UA-127257196-1');
+      $(function(){ $('.modal').modal('show') })
     </script>
   </body>
 </html>

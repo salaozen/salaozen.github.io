@@ -17,7 +17,7 @@ html, body {
   background: linear-gradient(135deg, #ff5f6d 0%, #ffc371 100%);
 }
 
-body {
+.background {
   background: #339a99;
   background: -moz-linear-gradient(135deg, #339a99 0%, #65cb99 100%);
   background: -webkit-linear-gradient(135deg, #339a99 0%, #65cb99 100%);
@@ -40,7 +40,7 @@ body {
   height: 100%!important;
 }
 
-.btn {
+.btn-contact {
   border-radius: 100px;
   padding: 6px 40px;
   text-align: center;
@@ -52,7 +52,7 @@ body {
   margin-bottom: 30px;
 }
 
-.btn:hover {
+.btn-contact:hover {
   color: #fff!important;
   background-color: transparent;
   border-color: #fff;
