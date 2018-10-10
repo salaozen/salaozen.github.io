@@ -133,7 +133,7 @@
         xhr.open('POST', url);
         xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
         xhr.onreadystatechange = function() {
-            $('#gform').hide(); $('#success').show();
+            $('#gform').hide(); .attr('class', 'd-block');
             return;
         };
         // url encode form data for sending as post data
