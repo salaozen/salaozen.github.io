@@ -125,22 +125,16 @@
       }
 
     $('#gform').on( "submit", function(event) {
-        event.preventDefault();
-        var form = event.target;
-        var data = getFormData(form);
-        var url = form.action;
-        var xhr = new XMLHttpRequest();
-        xhr.open('POST', url);
-        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-        xhr.onreadystatechange = function() {
-            $('#gform').hide(); .attr('class', 'd-block');
-            return;
-        };
-        // url encode form data for sending as post data
-        var encoded = Object.keys(data).map(function(k) {
-            return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
-        }).join('&');
-        xhr.send(encoded);
+        if($('.alert-validate').length == 0) {
+            event.preventDefault();
+            var form = event.target;
+            var data = getFormData(form);
+
+            $.post(form.action, getFormData(form), function(data){
+                $('#gform').hide(); $('#success').attr('class', 'd-block');
+                return;
+            }, "json");
+        }
     });
 
     $('.modal').on('hidden.bs.modal', reset);
@@ -151,6 +145,7 @@
         $('.validate-form .input100').each(function(){
             $(this).removeClass('has-val');
             hideValidate(this);
+            $('.true-validate').removeClass('true-validate')
         });
     }
 })(jQuery);
