@@ -130,10 +130,8 @@
             var form = event.target;
             var data = getFormData(form);
 
-            $.post(form.action, getFormData(form), function(data){
-                $('#gform').hide(); $('#success').attr('class', 'd-block');
-                return;
-            }, "json");
+            $.post(form.action, getFormData(form));
+            $('#gform').hide(); $('#success').attr('class', 'd-block');
         }
     });
 
