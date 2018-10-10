@@ -5,9 +5,10 @@ html, body {
   overflow: auto;
   font-size: 0.96rem;
   color: #fff;
+  background: #fff;
 }
 
-body1 {
+.background1 {
   background: #ff5f6d;
   background: -moz-linear-gradient(135deg, #ff5f6d 0%, #ffc371 100%);
   background: -webkit-linear-gradient(135deg, #ff5f6d 0%, #ffc371 100%);
@@ -16,13 +17,22 @@ body1 {
   background: linear-gradient(135deg, #ff5f6d 0%, #ffc371 100%);
 }
 
-body {
+.background2 {
   background: #339a99;
   background: -moz-linear-gradient(135deg, #339a99 0%, #65cb99 100%);
   background: -webkit-linear-gradient(135deg, #339a99 0%, #65cb99 100%);
   background: -o-linear-gradient(135deg, #339a99 0%, #65cb99 100%);
   background: -ms-linear-gradient(135deg, #339a99 0%, #65cb99 100%);
   background: linear-gradient(135deg, #339a99 0%, #65cb99 100%);
+}
+
+.background3 {
+  background: #643A92;
+  background: -moz-linear-gradient(135deg, #643A92 0%, #F83391 100%);
+  background: -webkit-linear-gradient(135deg, #643A92 0%, #F83391 100%);
+  background: -o-linear-gradient(135deg, #643A92 0%, #F83391 100%);
+  background: -ms-linear-gradient(135deg, #643A92 0%, #F83391 100%);
+  background: linear-gradient(135deg, #643A92 0%, #F83391 100%);
 }
 
 .container-fluid {
@@ -32,13 +42,13 @@ body {
 
 .btn {
   border-radius: 100px;
-  background-color: #fff;
-  color: #339a99!important;
   padding: 6px 40px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   text-transform: uppercase;
+  background-color: #fff;
+  color: #65cb99!important;
 }
 
 .btn:hover {
