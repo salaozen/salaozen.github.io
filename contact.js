@@ -30,7 +30,7 @@
     })
 
     /*==================================================================
-    [ Validate ]*/
+    [ Validate ]
     var input = $('.validate-input .input100');
 
     $('.validate-form').on('submit',function(){
@@ -45,7 +45,7 @@
 
         return check;
     });
-
+    */
 
     $('.validate-form .input100').each(function(){
         $(this).focus(function(){
@@ -125,13 +125,42 @@
       }
 
     $('#gform').on( "submit", function(event) {
-        if($('.alert-validate').length == 0) {
-            event.preventDefault();
+        event.preventDefault();
+        var input = $('.validate-input .input100');
+        var valid = true;
+
+        for(var i=0; i<input.length; i++) {
+            if(validate(input[i]) == false){
+                showValidate(input[i]);
+                valid = false;
+            }
+        }
+
+        if(valid) {
             var form = event.target;
             var data = getFormData(form);
+            
+            var contact = {};
+            contact.email = data.email;
+            contact.first_name = data.name;
+            contact.company = data.organization;
+            contact.phone = data.phone;
+            contact.webnote = data.message;
+            contact.tags = "Website Contact";
 
+            _agile.create_contact(contact, {
+                success: function (data) {
+                    console.log("success");
+                },
+                error: function (data) {
+                    console.log("error");
+                }
+            });
             $.post(form.action, getFormData(form));
-            $('#gform').hide(); $('#success').attr('class', 'd-block');
+            $('#gform').hide();
+            $('#success').attr('class', 'd-block');
+        } else {
+            return false;
         }
     });
 
