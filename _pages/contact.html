@@ -1,0 +1,40 @@
+---
+title: pages.contact.title
+permalink: /contact
+---
+
+<section class="ftco-section contact-section">
+  <div class="container bg-light">
+    <div class="row block-9">
+      <div class="col-md-12 pr-md-12">
+        <div id="success" class="d-none"><h1>{% translate pages.contact.success %}</h1></div>
+        <form id="gform" action="https://script.google.com/macros/s/AKfycbwm6tGIRNkXK6qyFANr3O0bR2VFPIcHhzkafnha/exec" method="POST">
+          <div class="row">
+            <div class="form-group col-md-6 pr-md-6 validate-input" data-validate="{% translate pages.contact.name %} {% translate form.is_required %}">
+              <input type="text" class="form-control" name="name" placeholder="{% translate pages.contact.name %}">
+            </div>
+            <div class="form-group col-md-6 pr-md-6 validate-input" data-validate="{% translate pages.contact.email %} {% translate form.is_required %}">
+              <input type="text" class="form-control" name="email" placeholder="{% translate pages.contact.email %}">
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-6 pr-md-6 validate-input" data-validate="{% translate pages.contact.phone %} {% translate form.valid %} {% translate form.is_required %}">
+              <input type="text" class="form-control" name="phone" placeholder="{% translate pages.contact.phone %}">
+            </div>
+            <div class="form-group col-md-6 pr-md-6 validate-input" data-validate="{% translate pages.contact.company %} {% translate form.is_required %}">
+              <input type="text" class="form-control" name="organization" placeholder="{% translate pages.contact.company %}">
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-12 pr-md-12 validate-input" data-validate="{% translate pages.contact.message %} {% translate form.is_required %}">
+              <textarea id="" cols="30" rows="7" class="form-control" name="message" placeholder="{% translate pages.contact.message %}"></textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="submit" value="Conhecer o Salão Zen" class="btn btn-primary py-3 px-5">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

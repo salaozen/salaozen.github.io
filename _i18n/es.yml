@@ -1,0 +1,40 @@
+footer:
+  about: Sobre
+  careers: Carreras
+  copyright: Todos los derechos reservados
+  description: 'El Salão Zen es una plataforma para la gestión completa de salones, peluquerías, estética, clínicas o cualquier establecimiento que necesite controlar sus citas.'
+  follow: Sigue el Salão Zen
+  help: Centro de ayuda
+  solutions: Soluciones
+  who_we_are: Quienes somos
+form:
+  is_required: es requerido
+  valid: válido
+menu:
+  about: Sobre
+  app: App
+  contact: Contacto
+  en: Inglés
+  es: Español
+  features: Caracteristicas
+  home: Home
+  pricing: Precios
+  pt: Portugués
+pages:
+  about:
+    title: Sobre o Salão Zen
+  contact:
+    button: Enviar
+    company: Empresa
+    email: E-mail
+    message: Mensage
+    name: Nombre
+    phone: Teléfono
+    success: '¡Gracis por tu coctato!<br/><br/>Pronto volveremos a ti.'
+    title: Hable conosotros
+  home:
+    contact_button: Conocer Salão Zen
+    header: 'Una plataforma completa para administrar y optimizar toda la operación de su establecimiento, desde la programación hasta el pago de las comisiones de los profesionales, pasando por la administración de servicios y productos, inventario, métodos de pago, cajeros y más.'
+    title: Home
+    typewrite: Perfecto para
+    typewrites: '[ "Salones", "Peluquerías", "Estética", "Clínicas" ]'
