@@ -15,6 +15,13 @@ jobs:
       #- slack/notify:
       #    message: Initiating Website Publishing
       - checkout
+      - run:
+          name: Force Bundler Version
+          command: |
+            sudo gem update --system
+            echo 'export BUNDLER_VERSION=$(cat Gemfile.lock | tail -1 | tr -d " ")' >> $BASH_ENV
+            source $BASH_ENV
+            gem install bundler
       - restore_cache:
           keys:
             - rubygems-v1-{{ checksum "Gemfile.lock" }}
