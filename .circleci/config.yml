@@ -3,17 +3,20 @@ version: 2.1
 orbs:
   ruby: circleci/ruby@0.1.2 
   slack: circleci/slack@3.4.2
+  gh-pages: sugarshin/gh-pages@0.0.6
 
-jobs:
-  publish-job:
+executors:
+  buildpack_deps:
     working_directory: ~/repo
     docker:
       - image: circleci/ruby:2.6.3-stretch-node
     environment:
       BUNDLE_PATH: ~/repo/vendor/bundle
+
+jobs:
+  build-job:
+    executor: buildpack_deps
     steps:
-      #- slack/notify:
-      #    message: Initiating Website Publishing
       - checkout
       - run:
           name: Force Bundler Version
@@ -34,8 +37,16 @@ jobs:
           paths:
             - vendor/bundle
       - run:
-          name: Publish gh-pages
-          command: ./publish.sh
+          name: Jekyll build
+          command: bundle exec jekyll build
+  publish-job:
+    executor: buildpack_deps
+    steps:
+      #- slack/notify:
+      #    message: Initiating Website Publishing
+      - gh-pages/deploy:
+          build-dir: _site
+          ssh-fingerprints: '79:c4:dc:91:ff:31:4f:92:49:a3:91:39:5b:50:a8:a2'
       - slack/notify:
           message: Website Publishing Done
 
@@ -45,6 +56,8 @@ workflows:
     jobs:
       - approval-publish-job:
           type: approval
+          requires:
+            - build-job
           filters:
             branches:
               only: master
