@@ -3,28 +3,18 @@ version: 2.1
 orbs:
   ruby: circleci/ruby@0.1.2 
   slack: circleci/slack@3.4.2
-  gh-pages: sugarshin/gh-pages@0.0.6
 
-executors:
-  buildpack_deps:
+jobs:
+  publish-job:
     working_directory: ~/repo
     docker:
       - image: circleci/ruby:2.6.3-stretch-node
     environment:
       BUNDLE_PATH: ~/repo/vendor/bundle
-
-jobs:
-  build-job:
-    executor: buildpack_deps
     steps:
+      #- slack/notify:
+      #    message: Initiating Website Publishing
       - checkout
-      - run:
-          name: Force Bundler Version
-          command: |
-            sudo gem update --system
-            echo 'export BUNDLER_VERSION=$(cat Gemfile.lock | tail -1 | tr -d " ")' >> $BASH_ENV
-            source $BASH_ENV
-            gem install bundler
       - restore_cache:
           keys:
             - rubygems-v1-{{ checksum "Gemfile.lock" }}
@@ -37,28 +27,17 @@ jobs:
           paths:
             - vendor/bundle
       - run:
-          name: Jekyll build
-          command: bundle exec jekyll build
-  publish-job:
-    executor: buildpack_deps
-    steps:
-      #- slack/notify:
-      #    message: Initiating Website Publishing
-      - gh-pages/deploy:
-          build-dir: _site
-          ssh-fingerprints: '63:a6:fc:c7:a9:9c:7d:f7:7c:4e:32:3f:e5:60:d7:4c'
+          name: Publish gh-pages
+          command: ./publish.sh
       - slack/notify:
           message: Website Publishing Done
 
 workflows:
   version: 2
-  publish-deploy:
+  website-deploy:
     jobs:
-      - build-job
       - approval-publish-job:
           type: approval
-          requires:
-            - build-job
           filters:
             branches:
               only: master

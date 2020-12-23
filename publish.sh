@@ -1,4 +1,6 @@
 #!/bin/sh
+git config --global user.email "builds@circleci.com"
+git config --global user.name "CircleCI"
 
 echo "Deleting old publication"
 rm -rf _site
