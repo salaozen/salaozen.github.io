@@ -94,18 +94,27 @@
       contact.webnote = data.message;
       contact.tags = "Website Contact";
       _agile.create_contact(contact, {
-          success: function (data) {
-              console.log("success");
-          },
-          error: function (data) {
-              console.log("error");
+          success: onSuccess,
+          error: function () {
+            _agile.set_email(contact.email)
+            _agile.update_contact(contact, {
+              success: onSuccess,
+              error: onError
+            });
           }
       });
+    } else {
+      return false;
+    }
+
+    function onSuccess() {
       // $.post(form.action, getFormData(form));
       $('#gform').hide();
       $('#success').attr('class', 'd-block');
-    } else {
-      return false;
+    }
+
+    function onError(data) {
+      console.log("error", data);
     }
   });
 })(jQuery);

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://www.salaozen.com.br/en/about</loc>
+<loc>http://localhost:4000/en/about</loc>
 </url>
 <url>
-<loc>https://www.salaozen.com.br/en/contact</loc>
+<loc>http://localhost:4000/en/contact</loc>
 </url>
 <url>
-<loc>https://www.salaozen.com.br/en/</loc>
+<loc>http://localhost:4000/en/</loc>
 </url>
 </urlset>
