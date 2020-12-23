@@ -8,7 +8,7 @@ jobs:
   publish-job:
     working_directory: ~/repo
     docker:
-      - image: circleci/ruby:2.6.3-stretch-node
+      - image: circleci/ruby:2.5-stretch-node
     environment:
       BUNDLE_PATH: ~/repo/vendor/bundle
     steps:
