@@ -5,13 +5,15 @@ orbs:
   slack: circleci/slack@3.4.2
 
 jobs:
-  publish:
+  publish-job:
     working_directory: ~/repo
     docker:
       - image: circleci/ruby:2.6.3-stretch-node
     environment:
       BUNDLE_PATH: ~/repo/vendor/bundle
     steps:
+      - slack/notify:
+          message: Initiating Website Publishing
       - checkout
       - restore_cache:
           keys:
@@ -27,13 +29,21 @@ jobs:
       - run:
           name: Publish gh-pages
           command: ./publish.sh
+      - slack/notify:
+          message: Website Publishing Done
 
 workflows:
   version: 2
   test-deploy:
     jobs:
-      - publish:
+      - approval-publish-job:
           type: approval
+          filters:
+            branches:
+              only: master
+      - publish-job:
+          requires:
+            - approval-publish-job
           filters:
             branches:
               only: master
