@@ -12,8 +12,8 @@ jobs:
     environment:
       BUNDLE_PATH: ~/repo/vendor/bundle
     steps:
-      #- slack/notify:
-      #    message: Initiating Website Publishing
+      - slack/notify:
+          message: Initiating Website Publishing
       - checkout
       - run:
           name: Force Bundler Version
