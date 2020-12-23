@@ -46,7 +46,7 @@ jobs:
       #    message: Initiating Website Publishing
       - gh-pages/deploy:
           build-dir: _site
-          ssh-fingerprints: '79:c4:dc:91:ff:31:4f:92:49:a3:91:39:5b:50:a8:a2'
+          ssh-fingerprints: '63:a6:fc:c7:a9:9c:7d:f7:7c:4e:32:3f:e5:60:d7:4c'
       - slack/notify:
           message: Website Publishing Done
 
