@@ -35,8 +35,6 @@ jobs:
           channel: alerts
           payload: >-
             {
-              "icon_emoji": ":rocket:",
-              "username": "Github Action",
               "attachments": [
                 {
                   "author_name": "${{ github.event.sender.login }}",
