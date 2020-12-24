@@ -61,10 +61,14 @@ exclude_from_localizations: ["assets"]
 include:
   - _pages
 exclude:
-  - publish.sh
+  - .gitignore
   - Gemfile
   - Gemfile.lock
+  - Makefile
   - README.md
+  - .github/
+  - .sass-cache/
+  - .jekyll-cache/
   - vendor/
 
 # Exclude from processing.

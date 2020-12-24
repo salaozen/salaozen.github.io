@@ -1,20 +1,23 @@
 .contact-section {
   padding-top: 0px;
 
-	.container{
-		padding: 30px;
-		@include media-breakpoint-up(md) {
-			padding: 70px;
-		}
-	}
-	.contact-info{
-		p{
-			a{
-				color: lighten($black,10%);
-			}
-			span{}
-		}
-	}
+  .container {
+    padding: 30px;
+
+    @include media-breakpoint-up(md) {
+      padding: 70px;
+    }
+  }
+
+  .contact-info {
+    p {
+      a {
+        color: lighten($black, 10%);
+      }
+
+      span {}
+    }
+  }
 }
 
 /*------------------------------------------------------------------
