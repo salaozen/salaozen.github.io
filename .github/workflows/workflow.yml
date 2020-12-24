@@ -41,11 +41,11 @@ jobs:
                   "author_link": "${{ github.event.sender.html_url }}",
                   "author_icon": "${{ github.event.sender.avatar_url }}",
                   "color": "good",
-                  "fallback": "Deployment finished.",
-                  "pretext": "Deployment finished.",
+                  "fallback": "Website Deployment",
+                  "pretext": "Website Deployment",
                   "fields": [
                     {
-                      "title": "Revision",
+                      "title": "Commit",
                       "value": "<https://github.com/${{ github.repository }}/commit/${{ github.sha }}|${{ github.sha }}@${{ github.ref }}>",
                       "short": true
                     }
