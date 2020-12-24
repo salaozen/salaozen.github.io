@@ -1,3 +1,4 @@
+---
 footer:
   about: About
   careers: Careers
@@ -38,3 +39,5 @@ pages:
     title: Home
     typewrite: Perfect for
     typewrites: '[ "Salons", "Barbershops", "Healthy Clinics" ]'
+  privacy:
+    title: Privacy Policy

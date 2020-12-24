@@ -82,6 +82,14 @@ h5,
   color: $primary !important;
 }
 
+.legal-content {
+  text-align: justify !important;
+  
+  h5 {
+    margin-top: 1.5rem !important;
+  }
+}
+
 
 //OWL CAROUSEL
 .owl-carousel {
@@ -782,7 +790,7 @@ textarea.form-control {
 
 
 .ftco-section {
-  padding: 8em 0;
+  padding: 0 0 6em 0;
   position: relative;
 
   @include media-breakpoint-down(sm) {

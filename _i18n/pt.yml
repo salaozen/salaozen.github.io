@@ -1,3 +1,4 @@
+---
 footer:
   about: Sobre
   careers: Carreiras
@@ -38,3 +39,5 @@ pages:
     title: Home
     typewrite: Perfeito para
     typewrites: '[ "Salões", "Barbearias", "Estéticas", "Clínicas" ]'
+  privacy:
+    title: Política de Privacidade
