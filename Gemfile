@@ -2,8 +2,8 @@ source "https://rubygems.org"
 
 gem 'jekyll'
 gem 'jekyll-theme-minimal'
-gem "kramdown", ">= 2.3.0"
-gem "kramdown-parser-gfm"
+# gem "kramdown", ">= 2.3.0"
+# gem "kramdown-parser-gfm"
 
 group :jekyll_plugins do
   gem 'jekyll-multiple-languages-plugin'
