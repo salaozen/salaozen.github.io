@@ -1,0 +1,21 @@
+{% capture title %}{% translate page.title %} | {{ site.title }}{% endcapture %}
+{% capture url %}{{site.url}}{{page.url}}{% endcapture %}
+
+<title>{{ title }}</title>
+
+<meta name="generator" content="{{ site.generator }}" />
+<meta name="author" content="{{ site.author }}" />
+
+<meta property="og:title" content="{{ title }}" />
+<meta property="og:locale" content="{{ site.lang }}" />
+<meta property="og:site_name" content="{{ site.title }}" />
+
+<link rel="canonical" href="{{url}}" />
+<meta property="og:url" content="{{url}}" />
+
+<meta name="description" content="{{ site.description }}" />
+<meta property="og:description" content="{{ site.description }}" />
+
+<script type="application/ld+json">
+    {"headline":"{{title}}","author":{"@type":"Person","name":"{{site.author}}"},"description":"{{site.description}}","@type":"WebPage","url":"{{url}}","@context":"https://schema.org"}
+</script>
