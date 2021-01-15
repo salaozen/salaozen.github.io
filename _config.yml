@@ -52,8 +52,15 @@ sass:
   sass_dir: _sass
 
 plugins:
+  - jekyll-analytics
   - jekyll-multiple-languages-plugin
   - jekyll-seo-tag
+  - jekyll-sitemap
+
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA-127257196-1
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
 
 languages: ["pt", "en", "es"]
 exclude_from_localizations: ["assets"]

@@ -6,6 +6,7 @@ gem 'jekyll-theme-minimal'
 # gem "kramdown-parser-gfm"
 
 group :jekyll_plugins do
+  gem 'jekyll-analytics'
   gem 'jekyll-multiple-languages-plugin'
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
