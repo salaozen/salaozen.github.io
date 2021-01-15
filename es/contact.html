@@ -64,7 +64,20 @@
     {"headline":"Hable conosotros | Salão Zen - Plataforma de agendamentos on-line","author":{"@type":"Person","name":"Salão Zen Desenvolvimento de Sistemas"},"description":"O Salão Zen é uma plataforma para gestão completa para salões, estéticas, barbearias e/ou qualquer estabelecimento que necessite controlar seus agendamentos.","@type":"WebPage","url":"https://www.salaozen.com.br/contact","@context":"https://schema.org"}
 </script>
     <meta name="keywords" content="Salão Zen, salaozen, salaozenapp, La Máfia Barbearia, App La Máfia, sistema salão, sistema barbearia, sistema estéticas, sistema de agendamento online, Salao Vip, salaovip, Awec, avecbrasil, Beauty Date, beautydate, AppBarber, appbarber" />
-</head>
+
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-127257196-1', 'auto');
+	ga('send', 'pageview', { 'page': location.pathname + location.search + location.hash});
+	ga('set', 'anonymizeIp', false);
+    </script>
+    <!-- End Google Analytics -->
+    </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
@@ -254,13 +267,6 @@
     <script src="/assets/js/main.js"></script>
     <script src="/assets/js/contact.js"></script>
 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127257196-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-127257196-1');
-    </script>
     <!-- Início do aviso de consentimento de cookies OneTrustwww.salaozen.com.br -->
       <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="07051335-b428-472d-b52f-ae3d8ad1aed4" ></script>
       <script type="text/javascript">function OptanonWrapper() { }</script>
