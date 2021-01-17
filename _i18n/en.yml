@@ -23,6 +23,45 @@ menu:
   pt: Portuguese
 pages:
   about:
+    customers:
+      heading: Some of the brands that already trust the Zen Salon
+      subheading: WHO IS ALREADY ZEN
+      text: The main brands in the most diverse segments already use the platform and trust the work of the Zen Salon
+    intro:
+      heading: We help you focus on what's important
+      subheading: IT`S POSSIBLE TO BE ZEN
+      text: >-
+        Reducing unnecessary work and focusing on the core business is perhaps a major challenge for new and old businesses. And it is in this scenario that the <span class="salaozen">Salão Zen</span> emerged to solve day-to-day processes with transparency, security and simplicity. <br/> <br/> Since its creation, the <span class="salaozen">Salão Zen</span> shows that it is possible to make a difference. It is possible to leave all control with us and focus all your energies on what is vital to
+        your business, that is to be <span class = "salaozen"> Zen </span> <br/> <br/> In the end, what we want with <span class="salaozen">Salão Zen</span> is that all people can reinvent their work processes through a platform with a fair, uncomplicated and transparent price.
+    jobs:
+      button: Open positions
+      heading: Are you looking for make the difference?
+      subheading: YOU CAN ALSO BE ZEN
+      text: 'If you are tired of the same solutions to old problems, if you want to have and test new ideas and if you believe that design, technology and good service solve any problem, know our careers. We look for people to simplify the world and reinvent the possible with us.'
+    office:
+      heading: What makes us different?
+      subheading: WE ARE ZEN
+      text: |-
+        We are a healthtech that develops simple, safe and 100% digital solutions for complete management for salons, esthetics, barber shops and clinics that need to control their schedules. <br/> <br/>
+         The <span class = "salaozen"> Salão Zen </span> platform was a pioneer in offering a completely online management with a personalized application. <br/> <br/>
+         We are ZENs, that is: uncomplicated, fair and transparent in conduct, direct and objective in communication, and we treat each business as a dream. <br/> <br/>
+         We are in favor of listening, understanding and valuing your opinion, and of earning your trust as a customer.
+    tech:
+      app:
+        heading: Native App
+        text: 'The App stands out for the most consistent experience of a native and non-adapted application. This directly reflects the operation, speed and compatibility with various devices. '
+      cloud:
+        heading: Everything in the cloud
+        text: 'The Salão Zen platform runs entirely in the cloud, which guarantees access at any time, from anywhere in the world and with any device that has access to the internet.'
+      heading: Innovation and technology is in our DNA
+      online:
+        heading: Always available
+        text: 'The entire infrastructure has redundancy and both run on the largest cloud provider in the world, Amazon AWS, which in addition to being super fast, works without service interruptions.'
+      security:
+        heading: Security
+        text: All access to the system and its transactions are encrypted and run under secure protocol (HTTPS). This guarantees the confidentiality and security of all information within the platform.
+      subheading: HIGH TECHNOLOGY
+      text: 'However, more important than that, is how this technology benefits the customers and users of the platform.'
     title: About Salão Zen
   contact:
     button: Send

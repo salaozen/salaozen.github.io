@@ -23,6 +23,43 @@ menu:
   pt: Português
 pages:
   about:
+    customers:
+      heading: Algumas das marcas que já confiam no Salão Zen
+      subheading: QUEM JÁ É ZEN
+      text: As principais marcas, dos mais diversos segmentos, já utilizam a plataforma e confiam no trabalho do Salão Zen
+    intro:
+      heading: Ajudamos você a focar no que é importante
+      subheading: É POSSIVEL SER ZEN
+      text: >-
+        Reduzir o trabalho desnecessário e focar no core business talvez seja um maiores desafios dos novos e antigos negocios. E é neste cenário que o <span class="salaozen">Salão Zen</span> surgiu para resolver os processos do dia-a-dia com transparência, segurança e simplicidade.<br/><br/> Desde sua criação, o <span class="salaozen">Salão Zen</span> mostra que é possível fazer a diferença. É possível deixar todo controle conosco e focar todas suas energias no que é vital para o seu negócio,
+        isso é ser <span class="salaozen">Zen</span><br/><br/> No fim das contas, o que nós queremos com o <span class="salaozen">Salão Zen</span> é que todas as pessoas possam reinventar seus processos de trabalho através de uma plataforma com preço justo, descomplicada e transparente.
+    jobs:
+      button: Vagas abertas
+      heading: Tá afim de fazer a diferença no mercado?
+      subheading: VOCÊ TAMBÉM PODE SER ZEN
+      text: 'Se você cansou das mesmas soluções para problemas antigos, se você quer ter e testar novas ideias e se você acredita que design, tecnologia e um bom atendimento resolvem qualquer problema, conheça as nossas carreiras. Procuramos pessoas para simplificar o mundo e reinventar o possível com a gente.'
+    office:
+      heading: O que nos torna diferentes?
+      subheading: SOMOS ZEN
+      text: >-
+        Somos uma healthtech que desenvolve soluções simples, seguras e 100% digitais de gestão completa para salões, estéticas, barbearias e clínicas que necessitam controlar seus agendamentos.<br/><br/> A plataforma <span class="salaozen">Salão Zen</span> foi pioneira em oferecer uma gestão totalmente online e com aplicativo personalizado.<br/><br/> Somos ZENs, ou seja: descomplicados, justos e transparentes na conduta, diretos e objetivos na comunicação, e tratamos cada negócio como uma
+        sonho.<br/><br/> Somos a favor de ouvir, entender e valorizar a sua opinião, e de merecer a sua confiança como cliente.
+    tech:
+      app:
+        heading: App Nativo
+        text: 'O App se destaca pela experiência mais consistente de uma aplicação nativa e não adaptada. Isso reflete diretamente no funcionamento, velocidade e compatibilidade com diversos aparelhos.'
+      cloud:
+        heading: Tudo na nuvem
+        text: 'A plataforma Salão Zen roda inteiramente na nuvem, o que garante o acesso a qualquer momento, de qualquer lugar do mundo e com qualquer dispositivo que tenha acesso a internet.'
+      heading: Inovação e tecnologia está no nosso DNA
+      online:
+        heading: Sempre disponível
+        text: 'Toda a infra-estrutura possui redundância e ambas rodam no maior provedor de cloud mundo, a Amazon AWS, que além de ser super rápido, funciona sem interrupções do serviço.'
+      security:
+        heading: Segurança
+        text: Todos os acessos ao sistema e suas transações são criptografados e rodam sob protocolo seguro (HTTPS). Isso garante o sigilo e a segurança de todas as informações dentro da plataforma.
+      subheading: TECNOLOGIA DE PONTA
+      text: 'Porém, mais importante que isso, é como essa tecnologia se reverte em benefícios para os clientes e usuários da plataforma.'
     title: Sobre o Salão Zen
   contact:
     button: Enviar

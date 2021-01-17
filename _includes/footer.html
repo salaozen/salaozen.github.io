@@ -5,20 +5,20 @@
         <div class="ftco-footer-widget mb-4">
           <h2 class="ftco-heading-2">Salão Zen</h2>
           <p>{% translate footer.description %}</p>
-          <!--p>Além de toda gestão a plataforma também oferece o benefícios do seu ciente poder agendar diretamente do App criando assim, além de um canal de fidelização, uma redução nas ligações para agendamento.</p-->
         </div>
       </div>
       <div class="col-md-2">
         <div class="ftco-footer-widget mb-4">
           <h2 class="ftco-heading-2">{% translate footer.about %}</h2>
           <ul class="list-unstyled">
-              <!--li><a href="about" class="py-2 d-block">{% translate footer.who_we_are %}</a></li-->
+              <li><a href="about" class="py-2 d-block">{% translate footer.who_we_are %}</a></li>
               <li><a href="https://www.linkedin.com/company/salaozenapp/jobs/" target="_blank" class="py-2 d-block">{% translate footer.careers %}</a></li>
-              <li><a href="http://suporte.salaozen.com.br" target="_blank" class="py-2 d-block">{% translate footer.help %}</a></li>
+              <li><a href="https://suporte.salaozen.com.br" target="_blank" class="py-2 d-block">{% translate footer.help %}</a></li>
           </ul>
         </div>
       </div>
-      <!--div class="col-md-2">
+      {% if jekyll.environment == 'development' %}
+      <div class="col-md-2">
         <div class="ftco-footer-widget mb-4">
           <h2 class="ftco-heading-2">{% translate footer.solutions %}</h2>
           <ul class="list-unstyled">
@@ -27,7 +27,8 @@
               <li><a href="pricing" class="py-2 d-block">{% translate menu.pricing %}</a></li>
           </ul>
         </div>
-      </div-->
+      </div>
+      {% endif %}
       <div class="col-md">
         <div class="ftco-footer-widget mb-4">
           <h2 class="ftco-heading-2">{% translate footer.follow %}</h2>
@@ -54,9 +55,6 @@
   </div>
 </footer>
 
-
-
-<!-- loader -->
 <div id="ftco-loader" class="show fullscreen">
   <svg class="circular" width="48px" height="48px">
     <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
