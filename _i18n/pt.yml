@@ -26,7 +26,7 @@ pages:
     customers:
       heading: Algumas das marcas que já confiam no Salão Zen
       subheading: QUEM JÁ É ZEN
-      text: As principais marcas, dos mais diversos segmentos, já utilizam a plataforma e confiam no trabalho do Salão Zen
+      text: 'As principais marcas, dos mais diversos segmentos, já utilizam a plataforma e confiam no trabalho do Salão Zen'
     intro:
       heading: Ajudamos você a focar no que é importante
       subheading: É POSSIVEL SER ZEN
@@ -70,6 +70,100 @@ pages:
     phone: Telefone
     success: Obrigado pelo seu contato!<br/><br/>Em breve estaremos retornando para você!
     title: Fale Conosco
+  features:
+    app:
+      heading: Tenha o seu aplicado personalizado
+      subheading: APP
+      text:
+        - item: Fidelize seus clientes com app com sua marca e sua identidade visual
+        - item: Traga mais agilidade para sua operação minimizando ou até eliminando as ligações para agendamento
+        - item: Tenha um aplicativo com experiência nativa para IOS e para Android
+        - item: Disponível para IOS (Apple Store) e Android (Google Play)
+    cash:
+      heading: Tenha controle total do dia a dia financeiro
+      subheading: CONTROLE DE CAIXA
+      text:
+        - item: Controle detalhado de caixa (com abertura e fechamento)
+        - item: Cálculo automático das comissões dos profissionais
+        - item: Descontos manuais ou pré-cadastrados
+        - item: Controle das formas de pagamento
+        - item: Detalhamento integral de todas as operações financeiras
+        - item: Quebras e possíveis erros destacados automaticamente
+    dashboard:
+      heading: Tenha a informação sempre a um click através dos painéis gerenciais
+      subheading: DASHBOARDS
+      text:
+        - item: Acompanhamento gerencial
+        - item: Faturamento
+        - item: Agendamentos
+        - item: Meios de pagamento
+        - item: Contas a pagar/receber
+        - item: Cancelamentos
+        - item: Fidelidade
+        - item: Taxa de retorno /clientes novos
+        - item: E muitos mais . . .
+    more:
+      heading: Existem ainda muitas outras opções de módulos e controles que irão facilitar a sua operação e a sua gestão
+      items:
+        - heading: Fidelidade
+          icon: cloud
+        - heading: Pacotes
+          icon: cloud
+        - heading: Contábil
+          icon: cloud
+        - heading: Agendamento via site
+          icon: cloud
+        - heading: Avaliação dos profissionais
+          icon: cloud
+        - heading: Controle filiais/franquias
+          icon: cloud
+        - heading: Controle de perfis de acesso
+          icon: cloud
+        - heading: Estoque completo
+          icon: cloud
+        - heading: Anamnese digital
+          icon: cloud
+        - heading: Contas a pagar/receber
+          icon: cloud
+        - heading: Nota Fiscal de Serviço
+          icon: cloud
+        - heading: E muito mais...
+          icon: cloud
+      subheading: E MUITO MAIS...
+    order:
+      heading: Suas vendas e atendimentos em um só lugar
+      subheading: ORDENS DE SERVIÇO & COMANDAS
+      text:
+        - item: 'Venda de serviços, produtos e pacotes diretamente na Ordem de Serviço'
+        - item: Descontos manuais
+        - item: Aplicação de descontos pré-definidos (vouchers)
+        - item: 'Divisão de pagamento por distintas formas (dinheiro, cartão e etc)'
+        - item: Acúmulo automático de créditos (pontos de fidelidade e pacotes de serviços)
+        - item: Pagamento por créditos (pontos de fidelidade ou serviços adquiridos pelas pacotes)
+    report:
+      heading: Muitas formas de acompanhar os resultados
+      subheading: RELATÓRIOS
+      text:
+        - item: Faturamento
+        - item: Pagamentos e comissões
+        - item: Agendamentos e atendimentos
+        - item: Cliente novos / aniversariantes / retorno / abandonos
+        - item: Descontos
+        - item: Avaliações e acompanhante de clientes
+        - item: Estoque
+        - item: Contábil / DRE
+        - item: E muitos mais . . .
+    schedule:
+      heading: Descomplique o controle de agendamentos
+      subheading: AGENDAMENTOS
+      text:
+        - item: Agenda compartilhada
+        - item: Criação de um agendamento com 1 click
+        - item: Disponível para agendamento 24 horas por dia 7 dias por semana
+        - item: Sistema de cores que permite a distinção das etapas da agenda
+        - item: Sincronização automática dos agendamentos manuais e automaticos (App ou Website)
+        - item: Bloqueios de dias ou horários no nível de unidade e profissional
+    title: Funcionalidades
   home:
     contact_button: Conhecer o Salão Zen
     header: 'Uma plataforma completa para gerir e otimizar todo funcionamento do seu estabelecimento, desde o agendamento até o pagamento das comissões dos profissionais, passando pela gestão dos serviços/produtos, estoque, formas de pagamento, caixas e muito mais.'

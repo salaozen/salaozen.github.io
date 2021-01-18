@@ -1,0 +1,36 @@
+.features-app-section {
+  background-color: $grey;
+
+  h2,
+  .subheading {
+    color: $white !important;
+  }
+}
+
+.features-more-section {
+  .items {
+    border: 1px solid #e7e7e8;
+    border-radius: 10px;
+    box-shadow: 0px 0px 100px 10px rgba(41, 44, 28, 0.1);
+    padding-top: 1rem;
+
+    .icon {
+      width: 90px;
+      height: 90px;
+      @include border-radius(50%);
+
+      background: #79efb4; //lighten($primary, 25%);
+
+      span {
+        color: #fff;
+      }
+    }
+
+    .media-body {
+      h3 {
+        min-height: 3em;
+        font-size: 17px;
+      }
+    }
+  }
+}

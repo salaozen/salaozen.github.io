@@ -72,6 +72,100 @@ pages:
     phone: Phone
     success: Thanks for contact us!<br/><br/>We will be returning as soon as posible to you
     title: Get in touch
+  features:
+    app:
+      heading: Tenha o seu aplicado personalizado
+      subheading: APP
+      text:
+        - item: Fidelize seus clientes com app com sua marca e sua identidade visual
+        - item: Traga mais agilidade para sua operação minimizando ou até eliminando as ligações para agendamento
+        - item: Tenha um aplicativo com experiência nativa para IOS e para Android
+        - item: Disponível para IOS (Apple Store) e Android (Google Play)
+    cash:
+      heading: Have total control of the financial day-to-day
+      subheading: BOX CONTROL
+      text:
+        - item: Detailed box control (with opening and closing)
+        - item: Automatic calculation of professional commissions
+        - item: Manual or pre-registered discounts
+        - item: Control of payment methods
+        - item: Full details of all financial transactions
+        - item: Breaks and possible errors automatically highlighted
+    dashboard:
+      heading: Always have information at a click through the management panels
+      subheading: DASHBOARDS
+      text:
+        - item: Management monitoring
+        - item: Revenues
+        - item: Schedules
+        - item: Payment options
+        - item: Accounts payable / receivable
+        - item: Cancellations
+        - item: Loyalty
+        - item: Rate of return / new customers
+        - item: And many more . . .
+    more:
+      heading: Existem ainda muitas outras opções de módulos e controles que irão facilitar a sua operação e a sua gestão
+      items:
+        - heading: Fidelidade
+          icon: cloud
+        - heading: Pacotes
+          icon: cloud
+        - heading: Contábil
+          icon: cloud
+        - heading: Agendamento via site
+          icon: cloud
+        - heading: Avaliação dos profissionais
+          icon: cloud
+        - heading: Controle filiais/franquias
+          icon: cloud
+        - heading: Controle de perfis de acesso
+          icon: cloud
+        - heading: Estoque completo
+          icon: cloud
+        - heading: Anamnese digital
+          icon: cloud
+        - heading: Contas a pagar/receber
+          icon: cloud
+        - heading: Nota Fiscal de Serviço
+          icon: cloud
+        - heading: E muito mais...
+          icon: cloud
+      subheading: E MUITO MAIS...
+    order:
+      heading: Your sales and service in one place
+      subheading: SERVICE ORDERS & COMMANDS
+      text:
+        - item: 'Sale of services, products and packages directly on the Service Order'
+        - item: Manual discounts
+        - item: Application of pre-defined discounts (vouchers)
+        - item: 'Payment division in different ways (cash, card and etc.)'
+        - item: Automatic credit accumulation (loyalty points and service packages)
+        - item: Payment by credits (loyalty points or services purchased by packages)
+    report:
+      heading: Many ways to track results
+      subheading: REPORTS
+      text:
+        - item: Revenues
+        - item: Payments and commissions
+        - item: Appointments and consultations
+        - item: New / birthday / return / abandonment customers
+        - item: Discounts
+        - item: Customer reviews and escort
+        - item: Stock
+        - item: Accounting / DRE
+        - item: And many more . . .
+    schedule:
+      heading: Uncomplicate scheduling control
+      subheading: SCHEDULES
+      text:
+        - item: Shared calendar
+        - item: Creating a schedule with 1 click
+        - item: Available for appointment 24 hours a day 7 days a week
+        - item: Color system that allows the distinction of the stages of the agenda
+        - item: Automatic synchronization of manual and automatic schedules (App or Website)
+        - item: Blocking days or times at the unit and professional level
+    title: Funcionalidades
   home:
     contact_button: Meet Salão Zen
     header: 'A complete platform to manage and optimize the entire operation of your establishment, from scheduling to paying professionals'' commissions, through the management of services and products, inventory, payment methods, cashiers and more.'
