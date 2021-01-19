@@ -21,7 +21,7 @@ permalink: /features
         <div class="col-sm-6 {% if image_last == false %}order-first{% else %}order-last{% endif %}">
           <ul>
             {% for t in site.translations[site.lang].pages.features[section].text %}
-            <li>{{t.item}}</li>
+              <li>{{t.item}}</li>
             {% endfor %}
           </ul>
         </div>

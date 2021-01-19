@@ -13,8 +13,8 @@
         <ul class="navbar-nav ml-auto">
           {% assign current_url = page.url | downcase | replace: './', '' | replace: '/', '' %}
           <li class="nav-item {% if current_url == '' %}active{% endif %}"><a href="./" class="nav-link">{% translate menu.home %}</a></li>
+          <li class="nav-item {% if current_url == 'about' %}active{% endif %}"><a href="about" class="nav-link">{% translate menu.about %}</a></li>
           {% if jekyll.environment == 'development' %}  
-            <li class="nav-item {% if current_url == 'about' %}active{% endif %}"><a href="about" class="nav-link">{% translate menu.about %}</a></li>
             <li class="nav-item {% if current_url == 'features' %}active{% endif %}"><a href="features" class="nav-link">{% translate menu.features %}</a></li>
             <li class="nav-item {% if current_url == 'app' %}active{% endif %}"><a href="app" class="nav-link">{% translate menu.app %}</a></li>
             <li class="nav-item {% if current_url == 'pricing' %}active{% endif %}"><a href="pricing" class="nav-link">{% translate menu.pricing %}</a></li>

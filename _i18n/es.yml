@@ -3,7 +3,7 @@ footer:
   about: Sobre
   careers: Carreras
   copyright: Todos los derechos reservados
-  description: 'El Salão Zen es una plataforma para la gestión completa de salones, peluquerías, estética, clínicas o cualquier establecimiento que necesite controlar sus citas.'
+  description: "El Salão Zen es una plataforma para la gestión completa de salones, peluquerías, estética, clínicas o cualquier establecimiento que necesite controlar sus citas."
   follow: Sigue el Salão Zen
   help: Centro de ayuda
   solutions: Soluciones
@@ -24,43 +24,46 @@ menu:
 pages:
   about:
     customers:
-      heading: Algunas de las marcas que ya confían en el Zen Salon
+      heading: Algunas marcas que ya confían en el Salão Zen
       subheading: QUIEN YA ES ZEN
-      text: 'Las principales marcas, en los más distintos segmentos, ya utilizan la plataforma y confían en el trabajo del Zen Salon'
+      text: "Las principales marcas, en los más distintos segmentos, ya utilizan la plataforma y confían en el trabajo del Salão Zen"
     intro:
-      heading: Te ayudamos a concentrarte en lo que es importante
+      heading: Te ayudamos a concentrarte en lo que es más importante
       subheading: ES POSIBLE SER ZEN
-      text: >-
-        Reducir el trabajo innecesario y centrarse en el negocio principal es quizás un desafío importante para los negocios nuevos y antiguos. Y es en este escenario que surge el <span class = "salaozen"> Salão Zen </span> para resolver los procesos del día a día con transparencia, seguridad y sencillez. <br/> <br/> Desde su creación, el <span class = "salaozen"> Salão Zen </span> muestra que es posible marcar la diferencia. Es posible dejarnos todo el control y concentrar todas sus energías en
-        lo que es vital para su negocio, es decir, ser <span class = "salaozen"> Zen </span> <br/> <br/> Al final, lo que queremos con el <span class = "salaozen"> Salão Zen </span> es que todas las personas puedan reinventar sus procesos de trabajo a través de una plataforma con un precio justo, sencillo y transparente.
+      text:
+        - item: 'Reducir el trabajo desnecesario y centrarse en el negocio principal quizás sea el desafío más importante para los negocios nuevos y antiguos. Y es en este escenario que surge el <span class="salaozen">Salão Zen</span> para resolver los procesos del día a día con transparencia, seguridad y sencillez.'
+        - item: 'Desde su creación, el <span class="salaozen">Salão Zen</span> muestra que es posible hacer la diferencia. Es posible dejarnos todo el control y concentrar sus energías en lo que es vital para su negocio, es decir, ser <span class="salaozen">Zen</span>.'
+        - item: 'Al final, lo que queremos con el <span class="salaozen">Salão Zen</span> es que todas las personas puedan reinventar sus procesos de trabajo utilizando una plataforma con un precio justo, sencillo y transparente.'
     jobs:
-      botón: posiciones abiertas
-      heading: ¿Está buscando marcar la diferencia en el mercado?
+      button: posiciones abiertas
+      heading: ¿Está buscando hacer la diferencia en el mercado?
       subheading: TAMBIÉN PUEDES SER ZEN
-      text: 'Si estás cansado de las mismas soluciones a viejos problemas, si quieres tener y probar nuevas ideas y si crees que el diseño, la tecnología y el buen servicio resuelven cualquier problema, conoce nuestras carreras. Buscamos personas para simplificar el mundo y reinventar lo posible con nosotros.'
+      text: "Si estás cansado de las mismas soluciones a viejos problemas, si quieres tener y probar nuevas ideas y si crees que el diseño, la tecnología y el buen servicio resuelven cualquier problema, conoce nuestras carreras. Buscamos personas para simplificar el mundo y reinventar lo posible con nosotros."
     office:
-      heading: ¿Qué nos hace diferentes?
+      heading: ¿Lo qué nos hace diferentes?
       subheading: SOMOS ZEN
-      text: >-
-        Somos una tecnología de la salud que desarrolla soluciones simples, seguras y 100% digitales para la gestión integral de salones, estética, peluquerías y clínicas que necesitan controlar sus horarios.<br/><br/> La plataforma <span class = "salaozen"> Salão Zen </span> fue pionero en ofrecer una gestión completamente online con una aplicación personalizada. <br/> <br/> Somos ZEN, es decir: sencillos, justos y transparentes en la conducta, directos y objetivos en la comunicación, y
-        tratamos a cada negocio como un sueño.<br/><br/> Estamos a favor de escuchar, comprender y valorar su opinión, y de ganarnos su confianza como cliente.
+      text:
+        - item: "Somos una techhealth que desarrolla soluciones simples, seguras y 100% digitales para la gestión integral de salones, estética, peluquerías y clínicas que necesitan controlar sus horarios."
+        - item: La plataforma <span class="salaozen">Salão Zen</span> fue pionera en ofrecer una gestión completamente online y con una app movile personalizada.
+        - item: "Somos ZEN, es decir: sencillos, justos y transparentes en la conducta, directos y objetivos en la comunicación, y tratamos a cada negocio como un sueño personal."
+        - item: "Somos a favor de escuchar, comprender y valorar su opinión, y de ganarnos su confianza como cliente."
     tech:
       app:
-        heading: Aplicación nativa
-        text: 'La aplicación se destaca por la experiencia más consistente de una aplicación nativa y no adaptada. Esto refleja directamente el funcionamiento, la velocidad y la compatibilidad con varios dispositivos.'
+        heading: App nativa
+        text: "La APP se destaca por la experiencia más consistente de una aplicación nativa y no adaptada. Esto refleja directamente en el funcionamiento, la velocidad y la compatibilidad con distintos dispositivos."
       cloud:
         heading: Todo en la nube
-        text: 'La plataforma Salão Zen se ejecuta íntegramente en la nube, lo que garantiza el acceso en cualquier momento, desde cualquier lugar del mundo y con cualquier dispositivo que tenga acceso a Internet.'
-      heading: La innovación y la tecnología están en nuestro ADN
+        text: "Toda la infraestructura tiene redundancia y ambas se ejecutan en el proveedor de nube más grande del mundo, Amazon AWS, que además de ser súper rápido, garantiza el funcionamiento sin interrupciones del servicio."
+      heading: La innovación y la tecnología están en nuestra sangre
       online:
         heading: Siempre disponible
-        text: 'Toda la infraestructura tiene redundancia y ambas se ejecutan en el proveedor de nube más grande del mundo, Amazon AWS, que además de ser súper rápido, funciona sin interrupciones del servicio.'
+        text: Todo el acceso al sistema y sus transacciones están encriptados y se ejecutan bajo protocolo seguro (HTTPS). Esto garantiza la confidencialidad y seguridad de toda la información dentro de la plataforma.
       security:
         heading: Seguridad
         text: Todo el acceso al sistema y sus transacciones están encriptados y se ejecutan bajo protocolo seguro (HTTPS). Esto garantiza la confidencialidad y seguridad de toda la información dentro de la plataforma.
-      subheading: TIP TECHNOLOGY
-      text: 'Sin embargo, más importante que eso, es cómo esta tecnología beneficia a los clientes y usuarios de la plataforma.'
-    title: Sobre o Salão Zen
+      subheading: ALTA TECNOLOGÍA
+      text: "Sin embargo, más importante que eso, es cómo esta tecnología beneficia a los clientes y usuarios de la plataforma."
+    title: Sobre el Salão Zen
   contact:
     button: Enviar
     company: Empresa
@@ -134,10 +137,10 @@ pages:
       heading: Sus ventas y servicio en un solo lugar
       subheading: ÓRDENES DE SERVICIO Y COMANDOS
       text:
-        - item: 'Venta de servicios, productos y paquetes directamente en la Orden de servicio'
+        - item: "Venta de servicios, productos y paquetes directamente en la Orden de servicio"
         - item: Descuentos manuales
         - item: Aplicación de descuentos predefinidos (vales)
-        - item: 'División de pagos de diferentes formas (efectivo, tarjeta, etc.)'
+        - item: "División de pagos de diferentes formas (efectivo, tarjeta, etc.)"
         - item: Acumulación automática de crédito (puntos de fidelidad y paquetes de servicios)
         - item: Pago por créditos (puntos de fidelidad o servicios adquiridos por paquetes)
     report:
@@ -166,7 +169,7 @@ pages:
     title: Funcionalidades
   home:
     contact_button: Conocer Salão Zen
-    header: 'Una plataforma completa para administrar y optimizar toda la operación de su establecimiento, desde la programación hasta el pago de las comisiones de los profesionales, pasando por la administración de servicios y productos, inventario, métodos de pago, cajeros y más.'
+    header: "Una plataforma completa para administrar y optimizar toda la operación de su establecimiento, desde la programación hasta el pago de las comisiones de los profesionales, pasando por la administración de servicios y productos, inventario, métodos de pago, cajeros y más."
     title: Home
     typewrite: Perfecto para
     typewrites: '[ "Salones", "Peluquerías", "Estética", "Clínicas" ]'
