@@ -8206,6 +8206,10 @@ textarea.form-control {
     padding-top: 10px; }
     .ftco-footer .reserved-rights img {
       max-width: 70px; }
+    .ftco-footer .reserved-rights .help-links {
+      margin-top: -1em; }
+      .ftco-footer .reserved-rights .help-links span {
+        margin: 0 0.5em; }
     .ftco-footer .reserved-rights .colorlib {
       color: #1fb299;
       font-size: 0.5em; }
