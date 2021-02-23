@@ -3,7 +3,7 @@ footer:
   about: About
   careers: Careers
   copyright: All rights reserved
-  description: "The Salão Zen is a complete platform for management beauty salons, barbershops, healthy clinics or any establishment that needs to control their appointments."
+  description: The Salão Zen is a complete platform for management beauty salons, barbershops, healthy clinics or any establishment that needs to control their appointments.
   follow: Follow Us
   help: Help Center
   privacy: Privacy Policy
@@ -29,43 +29,43 @@ pages:
     customers:
       heading: Some brands that already trust the Salon Zen
       subheading: WHO IS ALREADY ZEN
-      text: "The main brands, in different segments, already use the platform and trust the work of the Salon Zen"
+      text: The main brands, in different segments, already use the platform and trust the work of the Salon Zen
     intro:
       heading: We help you to put focus on most important thing
       subheading: IT`S POSSIBLE TO BE ZEN
       text:
-        - item: 'Reducing unnecessary work and focusing on the core business is perhaps a biggest challenge for new and old businesses. On that scenario that the <span class="salaozen">Salão Zen</span> emerged to solve business-as-usual process with transparency, security and simplicity.'
-        - item: 'Since its creation, the <span class="salaozen">Salão Zen</span> shows that it''s possible to make the difference. It is possible to leave all control with us and focus all your energies on what is vital to your business, this is to be <span class="salaozen">Zen</span>.'
-        - item: 'In the end, what we want with <span class="salaozen">Salão Zen</span> is that all people can reinvent their work processes through a platform with a fair, uncomplicated and transparent price.'
+        - item: Reducing unnecessary work and focusing on the core business is perhaps a biggest challenge for new and old businesses. On that scenario that the <span class="salaozen">Salão Zen</span> emerged to solve business-as-usual process with transparency, security and simplicity.
+        - item: Since its creation, the <span class="salaozen">Salão Zen</span> shows that it's possible to make the difference. It is possible to leave all control with us and focus all your energies on what is vital to your business, this is to be <span class="salaozen">Zen</span>.
+        - item: In the end, what we want with <span class="salaozen">Salão Zen</span> is that all people can reinvent their work processes through a platform with a fair, uncomplicated and transparent price.
     jobs:
       button: Open positions
       heading: Are you looking for make the difference?
       subheading: YOU CAN ALSO BE ZEN
-      text: "If you are tired of the same solutions to old problems, if you want to have and test new ideas and if you believe that design, technology and good service solve any problem, know our careers. We look for people to simplify the world and reinvent the possible with us."
+      text: If you are tired of the same solutions to old problems, if you want to have and test new ideas and if you believe that design, technology and good service solve any problem, know our careers. We look for people to simplify the world and reinvent the possible with us.
     office:
       heading: What makes us different?
       subheading: WE ARE ZEN
       text:
-        - item: "We are a healthtech that develops simple, safe and 100% digital solutions for complete management for salons, esthetics, barber shops and clinics that need to control their appointments."
+        - item: We are a healthtech that develops simple, safe and 100% digital solutions for complete management for salons, esthetics, barber shops and clinics that need to control their appointments.
         - item: The <span class="salaozen">Salão Zen</span> platform was a pioneer in offering a completely online management with a personalized mobile app.
-        - item: "We are ZENs, that means: uncomplicated, fair and transparent in conduct, direct and objective in communication, and we believe that each business as a personal dream."
-        - item: "We are in favor of listening, understanding and valuing your opinion, and we deserve your trust as a customer."
+        - item: 'We are ZENs, that means: uncomplicated, fair and transparent in conduct, direct and objective in communication, and we believe that each business as a personal dream.'
+        - item: We are in favor of listening, understanding and valuing your opinion, and we deserve your trust as a customer.
     tech:
       app:
         heading: Native App
-        text: "The App stands out for the most consistent experience of a native and non-adapted application. This reflects directly on the operation, speed and compatibility with many devices."
+        text: The App stands out for the most consistent experience of a native and non-adapted application. This reflects directly on the operation, speed and compatibility with many devices.
       cloud:
         heading: Everything in the cloud
-        text: "The Salão Zen platform runs entirely in the cloud, which guarantees access at any time, from anywhere in the world and with any device that has internet access."
+        text: The Salão Zen platform runs entirely in the cloud, which guarantees access at any time, from anywhere in the world and with any device that has internet access.
       heading: Innovation and technology is in our blood
       online:
         heading: Always available
-        text: "The entire infrastructure has redundancy and both run on the largest cloud provider in the world, Amazon AWS, which in addition to being super fast, works without service interruptions."
+        text: The entire infrastructure has redundancy and both run on the largest cloud provider in the world, Amazon AWS, which in addition to being super fast, works without service interruptions.
       security:
         heading: Security
         text: All access to the system and its transactions are encrypted and run under secure protocol (HTTPS). This guarantees the confidentiality and security of all information on the platform.
       subheading: HIGH TECHNOLOGY
-      text: "However, more important than that, is how this technology benefits the customers and users of the platform."
+      text: However, more important than that, is how this technology benefits the customers and users of the platform.
     title: About Salão Zen
   contact:
     button: Send
@@ -140,10 +140,10 @@ pages:
       heading: Your sales and service in one place
       subheading: SERVICE ORDERS & COMMANDS
       text:
-        - item: "Sale of services, products and packages directly on the Service Order"
+        - item: Sale of services, products and packages directly on the Service Order
         - item: Manual discounts
         - item: Application of pre-defined discounts (vouchers)
-        - item: "Payment division in different ways (cash, card and etc.)"
+        - item: Payment division in different ways (cash, card and etc.)
         - item: Automatic credit accumulation (loyalty points and service packages)
         - item: Payment by credits (loyalty points or services purchased by packages)
     report:
@@ -172,9 +172,11 @@ pages:
     title: Funcionalidades
   home:
     contact_button: Meet Salão Zen
-    header: "A complete platform to manage and optimize the entire operation of your establishment, from scheduling to paying professionals' commissions, through the management of services and products, inventory, payment methods, cashiers and more."
+    header: A complete platform to manage and optimize the entire operation of your establishment, from scheduling to paying professionals' commissions, through the management of services and products, inventory, payment methods, cashiers and more.
     title: Home
     typewrite: Perfect for
     typewrites: '[ "Salons", "Barbershops", "Healthy Clinics" ]'
   privacy:
     title: Privacy Policy
+  terms:
+    title: Terms of use

@@ -3,7 +3,7 @@ footer:
   about: Sobre
   careers: Carreiras
   copyright: Direitos Reservados
-  description: "O Salão Zen é uma plataforma para gestão completa para salões, barbearias, estéticas, clínicas e/ou qualquer estabelecimento que necessite controlar seus agendamentos."
+  description: O Salão Zen é uma plataforma para gestão completa para salões, barbearias, estéticas, clínicas e/ou qualquer estabelecimento que necessite controlar seus agendamentos.
   follow: Siga o Salão Zen
   help: Central de ajuda
   privacy: Política de Privacidade
@@ -29,43 +29,43 @@ pages:
     customers:
       heading: Algumas das marcas que já confiam no Salão Zen
       subheading: QUEM JÁ É ZEN
-      text: "As principais marcas, dos mais diversos segmentos, já utilizam a plataforma e confiam no trabalho do Salão Zen"
+      text: As principais marcas, dos mais diversos segmentos, já utilizam a plataforma e confiam no trabalho do Salão Zen
     intro:
       heading: Ajudamos você a focar no que é importante
       subheading: É POSSIVEL SER ZEN
       text:
-        - item: 'Reduzir o trabalho desnecessário e focar no core business talvez seja um maiores desafios dos novos e antigos negócios. E é neste cenário que o <span class="salaozen">Salão Zen</span> surgiu para resolver os processos do dia-a-dia com transparência, segurança e simplicidade.'
-        - item: 'Desde sua criação, o <span class="salaozen">Salão Zen</span> mostra que é possível fazer a diferença. É possível deixar todo controle conosco e focar todas suas energias no que é vital para o seu negócio, isso é ser <span class="salaozen">Zen</span>.'
-        - item: 'No fim das contas, o que nós queremos com o <span class="salaozen">Salão Zen</span> é que todas as pessoas possam reinventar seus processos de trabalho através de uma plataforma com preço justo, descomplicada e transparente.'
+        - item: Reduzir o trabalho desnecessário e focar no core business talvez seja um maiores desafios dos novos e antigos negócios. E é neste cenário que o <span class="salaozen">Salão Zen</span> surgiu para resolver os processos do dia-a-dia com transparência, segurança e simplicidade.
+        - item: Desde sua criação, o <span class="salaozen">Salão Zen</span> mostra que é possível fazer a diferença. É possível deixar todo controle conosco e focar todas suas energias no que é vital para o seu negócio, isso é ser <span class="salaozen">Zen</span>.
+        - item: No fim das contas, o que nós queremos com o <span class="salaozen">Salão Zen</span> é que todas as pessoas possam reinventar seus processos de trabalho através de uma plataforma com preço justo, descomplicada e transparente.
     jobs:
       button: Vagas abertas
       heading: Tá afim de fazer a diferença no mercado?
       subheading: VOCÊ TAMBÉM PODE SER ZEN
-      text: "Se você cansou das mesmas soluções para problemas antigos, se você quer ter e testar novas ideias e se você acredita que design, tecnologia e um bom atendimento resolvem qualquer problema, conheça as nossas carreiras. Procuramos pessoas para simplificar o mundo e reinventar o possível com a gente."
+      text: Se você cansou das mesmas soluções para problemas antigos, se você quer ter e testar novas ideias e se você acredita que design, tecnologia e um bom atendimento resolvem qualquer problema, conheça as nossas carreiras. Procuramos pessoas para simplificar o mundo e reinventar o possível com a gente.
     office:
       heading: O que nos torna diferentes?
       subheading: SOMOS ZEN
       text:
-        - item: "Somos uma healthtech que desenvolve soluções simples, seguras e 100% digitais de gestão completa para salões, estéticas, barbearias e clínicas que necessitam controlar seus agendamentos."
+        - item: Somos uma healthtech que desenvolve soluções simples, seguras e 100% digitais de gestão completa para salões, estéticas, barbearias e clínicas que necessitam controlar seus agendamentos.
         - item: A plataforma <span class="salaozen">Salão Zen</span> foi pioneira em oferecer uma gestão totalmente online e com aplicativo personalizado.
-        - item: "Somos ZENs, ou seja: descomplicados, justos e transparentes na conduta, diretos e objetivos na comunicação, e tratamos cada negócio como uma sonho."
-        - item: "Somos a favor de ouvir, entender e valorizar a sua opinião, e de merecer a sua confiança como cliente."
+        - item: 'Somos ZENs, ou seja: descomplicados, justos e transparentes na conduta, diretos e objetivos na comunicação, e tratamos cada negócio como uma sonho.'
+        - item: Somos a favor de ouvir, entender e valorizar a sua opinião, e de merecer a sua confiança como cliente.
     tech:
       app:
         heading: App Nativo
-        text: "O App se destaca pela experiência mais consistente de uma aplicação nativa e não adaptada. Isso reflete diretamente no funcionamento, velocidade e compatibilidade com diversos aparelhos."
+        text: O App se destaca pela experiência mais consistente de uma aplicação nativa e não adaptada. Isso reflete diretamente no funcionamento, velocidade e compatibilidade com diversos aparelhos.
       cloud:
         heading: Tudo na nuvem
-        text: "A plataforma Salão Zen roda inteiramente na nuvem, o que garante o acesso a qualquer momento, de qualquer lugar do mundo e com qualquer dispositivo que tenha acesso a internet."
+        text: A plataforma Salão Zen roda inteiramente na nuvem, o que garante o acesso a qualquer momento, de qualquer lugar do mundo e com qualquer dispositivo que tenha acesso a internet.
       heading: Inovação e tecnologia está no nosso DNA
       online:
         heading: Sempre disponível
-        text: "Toda a infra-estrutura possui redundância e ambas rodam no maior provedor de cloud mundo, a Amazon AWS, que além de ser super rápido, funciona sem interrupções do serviço."
+        text: Toda a infra-estrutura possui redundância e ambas rodam no maior provedor de cloud mundo, a Amazon AWS, que além de ser super rápido, funciona sem interrupções do serviço.
       security:
         heading: Segurança
         text: Todos os acessos ao sistema e suas transações são criptografados e rodam sob protocolo seguro (HTTPS). Isso garante o sigilo e a segurança de todas as informações dentro da plataforma.
       subheading: TECNOLOGIA DE PONTA
-      text: "Porém, mais importante que isso, é como essa tecnologia se reverte em benefícios para os clientes e usuários da plataforma."
+      text: Porém, mais importante que isso, é como essa tecnologia se reverte em benefícios para os clientes e usuários da plataforma.
     title: Sobre o Salão Zen
   contact:
     button: Enviar
@@ -140,10 +140,10 @@ pages:
       heading: Suas vendas e atendimentos em um só lugar
       subheading: ORDENS DE SERVIÇO & COMANDAS
       text:
-        - item: "Venda de serviços, produtos e pacotes diretamente na Ordem de Serviço"
+        - item: Venda de serviços, produtos e pacotes diretamente na Ordem de Serviço
         - item: Descontos manuais
         - item: Aplicação de descontos pré-definidos (vouchers)
-        - item: "Divisão de pagamento por distintas formas (dinheiro, cartão e etc)"
+        - item: Divisão de pagamento por distintas formas (dinheiro, cartão e etc)
         - item: Acúmulo automático de créditos (pontos de fidelidade e pacotes de serviços)
         - item: Pagamento por créditos (pontos de fidelidade ou serviços adquiridos pelas pacotes)
     report:
@@ -172,9 +172,11 @@ pages:
     title: Funcionalidades
   home:
     contact_button: Conhecer o Salão Zen
-    header: "Uma plataforma completa para gerir e otimizar todo funcionamento do seu estabelecimento, desde o agendamento até o pagamento das comissões dos profissionais, passando pela gestão dos serviços/produtos, estoque, formas de pagamento, caixas e muito mais."
+    header: Uma plataforma completa para gerir e otimizar todo funcionamento do seu estabelecimento, desde o agendamento até o pagamento das comissões dos profissionais, passando pela gestão dos serviços/produtos, estoque, formas de pagamento, caixas e muito mais.
     title: Home
     typewrite: Perfeito para
     typewrites: '[ "Salões", "Barbearias", "Estéticas", "Clínicas" ]'
   privacy:
     title: Política de Privacidade
+  terms:
+    title: Termos de uso
