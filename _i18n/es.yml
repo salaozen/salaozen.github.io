@@ -6,7 +6,10 @@ footer:
   description: "El Salão Zen es una plataforma para la gestión completa de salones, peluquerías, estética, clínicas o cualquier establecimiento que necesite controlar sus citas."
   follow: Sigue el Salão Zen
   help: Centro de ayuda
+  privacy: Política de privacidad
   solutions: Soluciones
+  status: Estado
+  terms: Terminos de uso
   who_we_are: Quienes somos
 form:
   is_required: es requerido

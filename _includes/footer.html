@@ -47,7 +47,16 @@
         <img src="{{ "/assets/images/logo.png" | prepend: site.baseurl_root }}" class="img-fluid" alt="">
       </div>
       <div class="col text-right">
-        <p>&copy;<script>document.write(new Date().getFullYear());</script> {% translate footer.copyright %}</p>
+        <p>
+            <script>
+                document.write('&copy; ' + new Date().getFullYear() + ' {% translate footer.copyright %}');
+            </script>
+        </p>
+        <p class="help-links">
+            <a href="http://status.salaozen.com.br/" target="_blank">{% translate footer.status %}</a> <span>&bull;</span>
+            <a href="terms-of-use">{% translate footer.terms %}</a> <span>&bull;</span>
+            <a href="privacy-policy">{% translate footer.privacy %}</a>
+        </p>
         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
         <div class="colorlib">This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></div>
       </div>

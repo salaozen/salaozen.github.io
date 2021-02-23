@@ -6,7 +6,10 @@ footer:
   description: "O Salão Zen é uma plataforma para gestão completa para salões, barbearias, estéticas, clínicas e/ou qualquer estabelecimento que necessite controlar seus agendamentos."
   follow: Siga o Salão Zen
   help: Central de ajuda
+  privacy: Política de Privacidade
   solutions: Soluções
+  status: Status
+  terms: Termos de uso
   who_we_are: Quem somos
 form:
   is_required: é obrigatório

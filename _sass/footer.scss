@@ -54,6 +54,14 @@
       max-width: 70px;
     }
 
+    .help-links {
+      margin-top: -1em;
+
+      span {
+        margin: 0 0.5em;
+      }
+    }
+
     .colorlib {
       color: $primary;
       font-size: 0.5em;

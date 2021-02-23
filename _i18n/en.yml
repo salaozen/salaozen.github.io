@@ -6,7 +6,10 @@ footer:
   description: "The Salão Zen is a complete platform for management beauty salons, barbershops, healthy clinics or any establishment that needs to control their appointments."
   follow: Follow Us
   help: Help Center
+  privacy: Privacy Policy
   solutions: Solutions
+  status: Status
+  terms: Terms of use
   who_we_are: Who we are
 form:
   is_required: is required
