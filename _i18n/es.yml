@@ -81,10 +81,10 @@ pages:
       heading: Tenha o seu aplicado personalizado
       subheading: APP
       text:
-        - item: Fidelize seus clientes com app com sua marca e sua identidade visual
-        - item: Traga mais agilidade para sua operação minimizando ou até eliminando as ligações para agendamento
-        - item: Tenha um aplicativo com experiência nativa para IOS e para Android
-        - item: Disponível para IOS (Apple Store) e Android (Google Play)
+        - item: Fidelice a sus clientes con una aplicación con su marca e identidad visual
+        - item: Aporte más agilidad a su operación minimizando o incluso eliminando las llamadas para programar
+        - item: Tener una aplicación con experiencia nativa para IOS y para Android
+        - item: Disponible para IOS (Apple Store) y Android (Google Play)
     cash:
       heading: Tener un control total del día a día financiero
       subheading: CONTROL DE CAJA
@@ -109,33 +109,33 @@ pages:
         - item: Tasa de retorno / nuevos clientes
         - item: Y muchos más . . .
     more:
-      heading: Existem ainda muitas outras opções de módulos e controles que irão facilitar a sua operação e a sua gestão
+      heading: También existen muchas otras opciones de módulos y controles que facilitarán su operación y gestión
       items:
-        - heading: Fidelidade
-          icon: cloud
-        - heading: Pacotes
-          icon: cloud
-        - heading: Contábil
-          icon: cloud
-        - heading: Agendamento via site
-          icon: cloud
-        - heading: Avaliação dos profissionais
-          icon: cloud
-        - heading: Controle filiais/franquias
-          icon: cloud
-        - heading: Controle de perfis de acesso
-          icon: cloud
-        - heading: Estoque completo
-          icon: cloud
-        - heading: Anamnese digital
-          icon: cloud
-        - heading: Contas a pagar/receber
-          icon: cloud
-        - heading: Nota Fiscal de Serviço
-          icon: cloud
-        - heading: E muito mais...
-          icon: cloud
-      subheading: E MUITO MAIS...
+        - heading: Recompensas
+          icon: 'fa fa-handshake'
+        - heading: Paquetes
+          icon: 'fas fa-box-open'
+        - heading: Contabilidad
+          icon: 'fas fa-funnel-dollar'
+        - heading: Citas en el sitio
+          icon: 'fas fa-calendar-alt'
+        - heading: Calificación de rofesionales
+          icon: 'fas fa-star-half-alt'
+        - heading: Control de franquicias
+          icon: 'fas fa-city'
+        - heading: Control de roles de acceso
+          icon: 'fas fa-user-lock'
+        - heading: Gestion de inventario
+          icon: 'fas fa-boxes'
+        - heading: Anamnesis digital
+          icon: 'fas fa-notes-medical'
+        - heading: Cuentas por pagar/cobrar
+          icon: 'fas fa-file-invoice-dollar'
+        - heading: Facturas
+          icon: 'fas fa-receipt'
+        - heading: Y mucho más...
+          icon: 'fas fa-plus-circle'
+      subheading: Y MUCHO MÁS...
     order:
       heading: Sus ventas y servicio en un solo lugar
       subheading: ÓRDENES DE SERVICIO Y COMANDOS
@@ -169,7 +169,7 @@ pages:
         - item: Sistema de colores que permite la distinción de las etapas de la agenda
         - item: Sincronización automática de horarios manuales y automáticos (aplicación o sitio web)
         - item: Bloqueo de días u horarios a nivel de unidad y profesional
-    title: Funcionalidades
+    title: Caracteristicas
   home:
     contact_button: Conocer Salão Zen
     header: Una plataforma completa para administrar y optimizar toda la operación de su establecimiento, desde la programación hasta el pago de las comisiones de los profesionales, pasando por la administración de servicios y productos, inventario, métodos de pago, cajeros y más.

@@ -17,18 +17,18 @@
           </ul>
         </div>
       </div>
-      {% if jekyll.environment == 'development' %}
       <div class="col-md-2">
         <div class="ftco-footer-widget mb-4">
           <h2 class="ftco-heading-2">{% translate footer.solutions %}</h2>
           <ul class="list-unstyled">
               <li><a href="features" class="py-2 d-block">{% translate menu.features %}</a></li>
+              {% if jekyll.environment == 'development' %}
               <li><a href="app" class="py-2 d-block">{% translate menu.app %}</a></li>
               <li><a href="pricing" class="py-2 d-block">{% translate menu.pricing %}</a></li>
+              {% endif %}
           </ul>
         </div>
       </div>
-      {% endif %}
       <div class="col-md">
         <div class="ftco-footer-widget mb-4">
           <h2 class="ftco-heading-2">{% translate footer.follow %}</h2>

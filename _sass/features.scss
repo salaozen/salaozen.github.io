@@ -7,6 +7,32 @@
   }
 }
 
+.features-section {
+  ul {
+    font-size: 1.2em;
+
+    li {
+      margin-bottom: 5px;
+      i {
+        color: $primary_lighten;
+      }
+    }
+  }
+}
+
+.features-app-section {
+  div.order-first,
+  div.order-last {
+    align-items: center !important;
+    display: flex !important;
+  }
+  
+  ul li {
+    margin-bottom: 0.95em;
+    font-size: 1.25em;
+  }
+}
+
 .features-more-section {
   .items {
     border: 1px solid #e7e7e8;
@@ -19,7 +45,7 @@
       height: 90px;
       @include border-radius(50%);
 
-      background: #79efb4; //lighten($primary, 25%);
+      background: $primary_lighten;
 
       span {
         color: #fff;

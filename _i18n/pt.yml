@@ -112,29 +112,29 @@ pages:
       heading: Existem ainda muitas outras opções de módulos e controles que irão facilitar a sua operação e a sua gestão
       items:
         - heading: Fidelidade
-          icon: cloud
+          icon: 'fa fa-handshake'
         - heading: Pacotes
-          icon: cloud
+          icon: 'fas fa-box-open'
         - heading: Contábil
-          icon: cloud
+          icon: 'fas fa-funnel-dollar'
         - heading: Agendamento via site
-          icon: cloud
+          icon: 'fas fa-calendar-alt'
         - heading: Avaliação dos profissionais
-          icon: cloud
+          icon: 'fas fa-star-half-alt'
         - heading: Controle filiais/franquias
-          icon: cloud
+          icon: 'fas fa-city'
         - heading: Controle de perfis de acesso
-          icon: cloud
+          icon: 'fas fa-user-lock'
         - heading: Estoque completo
-          icon: cloud
+          icon: 'fas fa-boxes'
         - heading: Anamnese digital
-          icon: cloud
+          icon: 'fas fa-notes-medical'
         - heading: Contas a pagar/receber
-          icon: cloud
+          icon: 'fas fa-file-invoice-dollar'
         - heading: Nota Fiscal de Serviço
-          icon: cloud
+          icon: 'fas fa-receipt'
         - heading: E muito mais...
-          icon: cloud
+          icon: 'fas fa-plus-circle'
       subheading: E MUITO MAIS...
     order:
       heading: Suas vendas e atendimentos em um só lugar
