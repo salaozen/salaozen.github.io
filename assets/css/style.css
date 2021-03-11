@@ -8407,6 +8407,21 @@ textarea.form-control {
   .features-app-section .subheading {
     color: #fff !important; }
 
+.features-section ul {
+  font-size: 1.2em; }
+  .features-section ul li {
+    margin-bottom: 5px; }
+    .features-section ul li i {
+      color: #79efb4; }
+
+.features-app-section div.order-first,
+.features-app-section div.order-last {
+  align-items: center !important;
+  display: flex !important; }
+.features-app-section ul li {
+  margin-bottom: 0.95em;
+  font-size: 1.25em; }
+
 .features-more-section .items {
   border: 1px solid #e7e7e8;
   border-radius: 10px;
