@@ -1,0 +1,212 @@
+---
+title: pages.plans.title
+permalink: /plans
+---
+
+Confira as vantagens de ser Bling!
+e comece a usar agora mesmo.
+
+
+<section class="ftco-section plans-section pricing-section">
+  <div class="row justify-content-center pt-2 pb-2">
+    <div class="col-md-12 text-center heading-section ftco-animate fadeInUp ftco-animated">
+      <span class="subheading">VEM PRO SAlÃO ZEN</span>
+      <h2>Confira as vantagens do Salão Zen e comece a usar agora mesmo.</h2>
+    </div>
+  </div>
+
+  <div class='pricing pricing-palden'>
+    {% for plan in site.translations[site.lang].pages.plans.plans %}
+      <div class='pricing-item {% if plan.price == 149 %}pricing__item--featured {% endif %}'>
+        <div class='pricing-deco'>
+          <svg class='pricing-deco-img' enable-background='new 0 0 300 100' height='100px' id='Layer_1' preserveAspectRatio='none' version='1.1' viewBox='0 0 300 100' width='300px' x='0px' xml:space='preserve' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns='http://www.w3.org/2000/svg' y='0px'>
+            <path class='deco-layer deco-layer--1' d='M30.913,43.944c0,0,42.911-34.464,87.51-14.191c77.31,35.14,113.304-1.952,146.638-4.729&#x000A;	c48.654-4.056,69.94,16.218,69.94,16.218v54.396H30.913V43.944z' fill='#FFFFFF' opacity='0.6'></path>
+            <path class='deco-layer deco-layer--2' d='M-35.667,44.628c0,0,42.91-34.463,87.51-14.191c77.31,35.141,113.304-1.952,146.639-4.729&#x000A;	c48.653-4.055,69.939,16.218,69.939,16.218v54.396H-35.667V44.628z' fill='#FFFFFF' opacity='0.6'></path>
+            <path class='deco-layer deco-layer--3' d='M43.415,98.342c0,0,48.283-68.927,109.133-68.927c65.886,0,97.983,67.914,97.983,67.914v3.716&#x000A;	H42.401L43.415,98.342z' fill='#FFFFFF' opacity='0.7'></path>
+            <path class='deco-layer deco-layer--4' d='M-34.667,62.998c0,0,56-45.667,120.316-27.839C167.484,57.842,197,41.332,232.286,30.428&#x000A;	c53.07-16.399,104.047,36.903,104.047,36.903l1.333,36.667l-372-2.954L-34.667,62.998z' fill='#FFFFFF'></path>
+          </svg>
+          <div class='pricing-price'>
+            <span class='pricing-currency'>{% translate pages.plans.currency %}</span>{{plan.price}}<i class='pricing-cents'>{{plan.cents}}</i><span class='pricing-period'>/ {% translate pages.plans.monthly %}</span>
+          </div>
+          <h3 class='pricing-title'>{{plan.name}}</h3>
+        </div>
+        <div class="pricing-description">
+          {{plan.description}}
+          <ul class='pricing-feature-list'>
+            {% for feature in plan.features %}
+              <li class='pricing-feature'>{{feature.item}}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        <a href="contact" class="btn btn-primary pricing-action" target="_blank"><span class="icon icon-paper-plane mr-2"></span> Fale com vendas</a>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="ftco-section plans-section compare-section">
+  <div class="container">
+    <div class="show-compare text-center">
+      <button class="btn btn-primary btn-outline-primary btn-show-compare"><span class="fas fa-eye mr-2"></span>Ver todos os recursos</button>
+      <button class="btn btn-primary btn-outline-primary btn-hide-compare" style="display: none;"><span class="fas fa-eye-slash mr-2"></span>Ocultar todos os recursos</button>
+    </div>
+    <div class="table-responsive" style="display: none;">
+      <table class="table">
+        <thead>
+          <tr>
+            <th></th>
+            <th>{{ site.translations[site.lang].pages.plans.plans[0].name }}</th>
+            <th>{{ site.translations[site.lang].pages.plans.plans[1].name }}</th>
+            <th>{{ site.translations[site.lang].pages.plans.plans[2].name }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Controle de Agendamento</td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+          </tr>
+          <tr>
+            <td>Controle de Ordens de Serviço (Comandas)</td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+          </tr>
+          <tr>
+            <td>Controle de pagamentos e formas de pagamentos</td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+          </tr>
+          <tr>
+            <td>Controle de Caixa</td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+          </tr>
+          <tr>
+            <td>Gerenciamento de comissões</td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+          </tr>
+          <tr>
+            <td>Gerenciamento de Serviços e Produtos</td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+          </tr>
+          <tr>
+            <td>Controle de Estoque</td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+          </tr>
+          <tr>
+            <td>Controle de Faturamento</td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+          </tr>
+          <tr>
+            <td>Gerenciamento de descontos</td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+          </tr>
+          <tr>
+            <td>Relatórios</td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+          </tr>
+          <tr>
+            <td>Dashboards</td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+          </tr>
+          <tr>
+            <td>Acesso exclusivo do profissional</td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+          </tr>
+          <tr>
+            <td>App personalidado *</td>
+            <td><i class="fas fa-check-circle excluded"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+          </tr>
+          <tr>
+            <td>Versão do App iPhone</td>
+            <td><i class="fas fa-check-circle excluded"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+          </tr>
+          <tr>
+            <td>Versão do App Android</td>
+            <td><i class="fas fa-check-circle excluded"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+          </tr>
+          <tr>
+            <td>Avaliação de profissionais</td>
+            <td><i class="fas fa-check-circle excluded"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+          </tr>
+          <tr>
+            <td>Agendamento via Website / Facebook / Instagram</td>
+            <td><i class="fas fa-check-circle excluded"></i></td>
+            <td><i class="fas fa-check-circle excluded"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+          </tr>
+          <tr>
+            <td>Envio de notificações (Aplicativo)</td>
+            <td><i class="fas fa-check-circle excluded"></i></td>
+            <td><i class="fas fa-check-circle excluded"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+          </tr>
+          <tr>
+            <td>Gestão de pacotes</td>
+            <td><i class="fas fa-check-circle excluded"></i></td>
+            <td><i class="fas fa-check-circle excluded"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+          </tr>
+          <tr>
+            <td>Sistema de Fidelidade (Sistema de Pontos)</td>
+            <td><i class="fas fa-check-circle excluded"></i></td>
+            <td><i class="fas fa-check-circle excluded"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+          </tr>
+          <tr>
+            <td>Contas a Pagar e a Receber</td>
+            <td><i class="fas fa-check-circle excluded"></i></td>
+            <td><i class="fas fa-check-circle excluded"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+          </tr>
+          <tr>
+            <td>Controle contábil (DRE)</td>
+            <td><i class="fas fa-check-circle excluded"></i></td>
+            <td><i class="fas fa-check-circle excluded"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+          </tr>
+          <tr>
+            <td>Emissão de NFS automática (Beta)</td>
+            <td><i class="fas fa-check-circle excluded"></i></td>
+            <td><i class="fas fa-check-circle excluded"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+          </tr>
+          <tr>
+            <td>Integrações (Beta)</td>
+            <td><i class="fas fa-check-circle excluded"></i></td>
+            <td><i class="fas fa-check-circle excluded"></i></td>
+            <td><i class="fas fa-check-circle"></i></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>

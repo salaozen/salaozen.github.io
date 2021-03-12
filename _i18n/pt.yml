@@ -22,7 +22,7 @@ menu:
   es: Espanhol
   features: Funcionalidades
   home: Home
-  pricing: Preço
+  plans: Planos
   pt: Português
 pages:
   about:
@@ -176,6 +176,39 @@ pages:
     title: Home
     typewrite: Perfeito para
     typewrites: '[ "Salões", "Barbearias", "Estéticas", "Clínicas" ]'
+  plans:
+    title: Planos
+    currency: R$
+    monthly: mês
+    plans:
+      - name: Essencial
+        description: Tenha seu estabelecimento preparado com o essencial para um controle completo
+        price: 99
+        cents: ',90'
+        features:
+          - item: Controle de agendamentos
+          - item: Controle financeiro e de comissões
+          - item: Dezenas de relatórios
+          - item: Até 10 profissionais
+      - name: Essencial APP
+        description: Crie também um canal direto de comunicação e auto-atendimento para os seus clientes
+        price: 149
+        cents: ',90'
+        features:
+          - item: Todas as funcionalidades do Essencial
+          - item: App personalidado *
+          - item: Versão do App iPhone
+          - item: Versão do App Android
+          - item: Avaliação de profissionais
+      - name: Completo
+        description: Tenha uma gestão mais abrangente do seu estabelecimento e amplie seu canal com os clientes
+        price: 250
+        cents: ''
+        features:
+          - item: Todas as funcionalidades do Essencial APP
+          - item: Fidelidade, Pacotes de serviços e Notificações
+          - item: Controle contábil (NFs, DRE, Contas a pagar/receber)
+          - item: E muito mais...
   privacy:
     title: Política de Privacidade
   terms:
