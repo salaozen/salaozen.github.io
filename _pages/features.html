@@ -15,7 +15,7 @@ permalink: /features
         </div>
       </div>
       <div class="row ftco-animate fadeInUp ftco-animated">
-        <div class="col-sm-6 {% if image_last == true %}order-first{% else %}order-last{% endif %}">
+        <div class="col-sm-6 {% if image_last == true %}order-first{% else %}order-last{% endif %} col-img">
           <img src="{{ "/assets/images/features_" | append: section | append: ".png" | prepend: site.baseurl_root }}" class="img-fluid" alt="">
         </div>
         <div class="col-sm-6 {% if image_last == false %}order-first{% else %}order-last{% endif %}">
@@ -46,7 +46,7 @@ permalink: /features
     <div class="row ftco-animate fadeInUp ftco-animated">
       <div class="row d-flex justify-content-center">
         {% for item in site.translations[site.lang].pages.features.more.items %}
-        <div class="col-sm-2 align-self-stretch ftco-animate fadeInUp ftco-animated">
+        <div class="col-6 col-sm-2 align-self-stretch ftco-animate fadeInUp ftco-animated">
           <div class="media block-6 items d-block text-center">
             <div class="d-flex justify-content-center"><div class="icon color-1 d-flex justify-content-center mb-3"><span class="align-self-center {{ item.icon }}"></span></div></div>
             <div class="media-body p-2">

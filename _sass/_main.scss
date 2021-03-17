@@ -263,6 +263,21 @@ h5,
       color: $black;
     }
   }
+
+  &.btn-white {
+    border-color: $white;
+    background: $white;
+    @include border-radius(30px);
+    color: $primary;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background: none;
+      border-color: $white;
+      color: $white;
+    }
+  }
 }
 
 //DEGREE SKEW
@@ -287,26 +302,6 @@ h5,
   }
 }
 
-//FEATURED SLIDER
-.ftco-section-featured {
-  margin-top: -250px;
-  padding-bottom: 7em;
-
-  .container {
-    z-index: 100;
-    position: relative;
-
-    .owl-carousel .owl-stage-outer {
-      padding-bottom: 2em;
-    }
-
-    .carousel {
-      img {
-        border: 1px solid lighten($black, 70%);
-      }
-    }
-  }
-}
 
 .ftco-section-parallax {
   position: relative;
@@ -672,7 +667,7 @@ textarea.form-control {
   position: relative;
 
   @include media-breakpoint-down(sm) {
-    padding: 6em 0;
+    padding: 6em 1em;
   }
 }
 

@@ -29,8 +29,8 @@ permalink: /about
     </div>
     <div class="row ftco-animate fadeInUp ftco-animated">  
       <div class="row d-flex">
-        <div class="img col-sm-12 col-lg-6 order-last" style="background-image: url('{{ "/assets/images/about_office.jpeg" | prepend: site.baseurl_root }}');"></div>
-        <div class="text col-lg-6 order-first ftco-animate fadeInUp ftco-animated">
+        <div class="img col-12 col-lg-6 order-last" style="background-image: url('{{ "/assets/images/about_office.jpeg" | prepend: site.baseurl_root }}');"></div>
+        <div class="text col-12 col-lg-6 order-first ftco-animate fadeInUp ftco-animated">
           {% for t in site.translations[site.lang].pages.about.office.text %}
             {{t.item}}<br/><br/>
           {% endfor %}

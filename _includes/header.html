@@ -1,12 +1,23 @@
-<section class="slider ftco-degree-bg">
-  <div class="slider-item" data-stellar-background-ratio="0.5">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row slider-text justify-content-center align-items-center">
-        <div class="col-md-10 col-sm-12 ftco-animate mb-4 text-center">
-          <h1 class="mb-3">{% translate page.title %}</h1>
-        </div>
+<header class="topbar topbar--small topbar--with-image" data-topbar>
+  <div class="container">
+    <div class="row slider-text justify-content-center align-items-center">
+      <div class="col-md-10 col-sm-12 ftco-animate mb-4 text-center">
+        <h1 class="mb-sm-3">{% translate page.title %}</h1>
       </div>
     </div>
   </div>
-</section>
+</header>
+<div class="waves waves--small {% if portal.current_tab and portal.current_tab == 'home' %}is-hidden{% endif %}" data-wave-small>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1900 47" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g fill="none" fill-rule="evenodd">
+      <path fill-rule="nonzero" d="M403.925926,32 C583.088889,32 1900,0 1900,0 L0,0 C0,0 163.540741,32 403.925926,32 Z"
+        transform="translate(-250)" />
+      <path fill-opacity="0.2" fill-rule="nonzero"
+        d="M1342.66667,76 C1552.37037,76 1900,0.2 1900,0.2 L0,0.2 C0,0.2 896.518519,76 1342.66667,76 Z"
+        transform="translate(0 -29)" />
+      <path fill-opacity="0.2" fill-rule="nonzero"
+        d="M1342.66667,76 C1552.37037,76 1900,0.2 1900,0.2 L0,0.2 C0,0.2 896.518519,76 1342.66667,76 Z"
+        transform="translate(617 -29)" />
+    </g>
+  </svg>
+</div>

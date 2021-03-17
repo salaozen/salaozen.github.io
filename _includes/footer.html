@@ -43,18 +43,22 @@
     </div>
 
     <div class="row reserved-rights">
-      <div class="col">
+      <div class="col-4">
         <img src="{{ "/assets/images/logo.png" | prepend: site.baseurl_root }}" class="img-fluid" alt="">
       </div>
-      <div class="col text-right">
+      <div class="col-8 text-right">
         <p>
             <script>
                 document.write('&copy; ' + new Date().getFullYear() + ' {% translate footer.copyright %}');
             </script>
         </p>
         <p class="help-links">
-            <a href="http://status.salaozen.com.br/" target="_blank">{% translate footer.status %}</a> <span>&bull;</span>
-            <a href="terms-of-use">{% translate footer.terms %}</a> <span>&bull;</span>
+            <a href="http://status.salaozen.com.br/" target="_blank">{% translate footer.status %}</a>
+            <span class="d-none d-sm-inline">&bull;</span>
+            <br class="d-block d-sm-none"/>
+            <a href="terms-of-use">{% translate footer.terms %}</a>
+            <span class="d-none d-sm-inline">&bull;</span>
+            <br class="d-block d-sm-none"/>
             <a href="privacy-policy">{% translate footer.privacy %}</a>
         </p>
         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
