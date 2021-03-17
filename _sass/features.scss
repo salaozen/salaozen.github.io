@@ -10,6 +10,9 @@
 .features-section {
   ul {
     font-size: 1.2em;
+    @include media-breakpoint-down(sm) {
+      font-size: 0.8em;
+    }
 
     li {
       margin-bottom: 5px;
@@ -36,6 +39,9 @@
   ul li {
     margin-bottom: 0.95em;
     font-size: 1.25em;
+    @include media-breakpoint-down(sm) {
+      font-size: 0.85em;
+    }
   }
 }
 

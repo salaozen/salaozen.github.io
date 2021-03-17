@@ -667,7 +667,7 @@ textarea.form-control {
   position: relative;
 
   @include media-breakpoint-down(sm) {
-    padding: 6em 1em;
+    padding: 0em 1em;
   }
 }
 
