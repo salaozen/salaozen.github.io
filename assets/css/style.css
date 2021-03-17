@@ -7168,7 +7168,7 @@ textarea.form-control {
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 6em 1em; } }
+      padding: 0em 1em; } }
 
 .ftco-bg-dark {
   background: #3c312e; }
@@ -8480,6 +8480,9 @@ textarea.form-control {
 
 .features-section ul {
   font-size: 1.2em; }
+  @media (max-width: 767.98px) {
+    .features-section ul {
+      font-size: 0.8em; } }
   .features-section ul li {
     margin-bottom: 5px; }
     .features-section ul li i {
@@ -8495,6 +8498,9 @@ textarea.form-control {
 .features-app-section ul li {
   margin-bottom: 0.95em;
   font-size: 1.25em; }
+  @media (max-width: 767.98px) {
+    .features-app-section ul li {
+      font-size: 0.85em; } }
 
 .features-more-section .items {
   border: 1px solid #e7e7e8;
