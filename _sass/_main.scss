@@ -12,9 +12,10 @@ $grey: #273238;
 $primary: #1fb299; // #23C7AC;
 $secondary: #23C7AC; // #7DEBD9;
 $tertiary: #ee76ad;
-$quarternary: #efac78;
+$quarternary: #9DE0AD;
 
- $primary_lighten : #79efb4;
+$primary_lighten : #79efb4;
+$quarternary_lighten : lighten($quarternary, 20%);
 
 @mixin gradient-background() {
   background: 339a99;
@@ -672,7 +673,7 @@ textarea.form-control {
 }
 
 .ftco-bg-dark {
-  background: #3c312e;
+  background: $grey; // #3c312e;
 }
 
 .ftco-overflow-hidden {

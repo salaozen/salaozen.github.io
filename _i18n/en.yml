@@ -1,6 +1,7 @@
 ---
 footer:
   about: About
+  accelerated_by: Accelerated by
   careers: Careers
   copyright: All rights reserved
   description: The Salão Zen is a complete platform for management beauty salons, barbershops, healthy clinics or any establishment that needs to control their appointments.
@@ -9,6 +10,7 @@ footer:
   privacy: Privacy Policy
   solutions: Solutions
   status: Status
+  support: Support
   terms: Terms of use
   who_we_are: Who we are
 form:

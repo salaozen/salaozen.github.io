@@ -1,31 +1,9 @@
 .ftco-footer {
   font-size: 16px;
-  background: $primary;
-  padding: 3em 0 0 0;
+  padding-bottom: 0 !important;
 
-  .ftco-footer-logo {
-    text-transform: uppercase;
-    letter-spacing: .1em;
-  }
-
-  .ftco-footer-widget {
-    h2 {
-      font-weight: normal;
-      color: $white;
-      margin-bottom: 10px;
-      font-size: 18px;
-      font-weight: 300;
-    }
-
-    ul {
-      li {
-        a {
-          span {
-            color: $white;
-          }
-        }
-      }
-    }
+  @include media-breakpoint-down(sm) {
+    padding: 2em 0em 0em 0em;
   }
 
   p {
@@ -40,15 +18,88 @@
     }
   }
 
-  .ftco-heading-2 {
-    font-size: 17px;
-    font-weight: 400;
-    color: $black;
+  .ftco-footer-main {
+    background: $primary;
+
+    .ftco-footer-logo {
+      text-transform: uppercase;
+      letter-spacing: .1em;
+    }
+  
+    .ftco-footer-widget {
+      h2 {
+        font-weight: normal;
+        color: $white;
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: 300;
+      }
+  
+      ul {
+        li {
+          a {
+            span {
+              color: $white;
+            }
+          }
+        }
+      }
+    }
+
+    .ftco-heading-2 {
+      font-size: 17px;
+      font-weight: 400;
+      color: $black;
+    }
   }
 
-  .reserved-rights {
-    border-top: 1px solid $secondary !important;
+  .ftco-footer-partners {
+    background-color: $grey;
+    color: rgba($white, .7);
+    font-size: 0.85em;
+        
+    @include media-breakpoint-down(sm) {
+      text-align: center;
+    }
+
+    .text-support {
+      margin-left: 27%;
+      @include media-breakpoint-down(sm) {
+        margin-left: 0;
+      }
+    }
+
+    .row {
+      align-items: center !important;
+      justify-content: center !important;
+    }
+  
+    .row.logos {
+      margin-top: -10px;
+
+      @include media-breakpoint-down(sm) {
+        margin-top: 0px;
+      }
+    }
+  
+    img {
+      filter: brightness(0) invert(1);
+      -webkit-filter: brightness(0) invert(1);
+      
+      @include media-breakpoint-down(sm) {
+        max-width: 60%;
+      }
+    }
+  }
+
+  .ftco-footer-rights {
+    background-color: $grey;
     padding-top: 10px;
+
+    hr {
+      border-top: 1px solid rgba($white, .2) !important;
+      padding-bottom: 1em;
+    }
 
     img {
       max-width: 70px;
@@ -63,12 +114,12 @@
     }
 
     .colorlib {
-      color: $primary;
+      color: $grey;
       font-size: 0.5em;
 
       a,
       a:hover {
-        color: $primary;
+        color: $grey;
       }
     }
   }
