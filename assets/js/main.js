@@ -91,7 +91,7 @@
 			}
 		});
 	};
-	carousel();
+	//carousel();
 
 	$('nav .dropdown').hover(function(){
 		var $this = $(this);
@@ -290,7 +290,7 @@
 		} , { offset: '95%' } );
 
 	}
-	counter();
+	//counter();
 
 	var contentWayPoint = function() {
 		var i = 0;
@@ -354,7 +354,7 @@
 	OnePageNav();
 
 
-	// magnific popup
+	/* magnific popup
 	$('.image-popup').magnificPopup({
     type: 'image',
     closeOnContentClick: true,
@@ -374,7 +374,7 @@
       duration: 300 // don't foget to change the duration also in CSS
     }
   });
-
+  
   $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
     disableOn: 700,
     type: 'iframe',
@@ -384,14 +384,14 @@
 
     fixedContentPos: false
   });
-
+  
    
    $('#checkin_date, #checkout_date, #birth_date, #arrival_date, #departure_date, #expiration_date').datepicker({
 	  'format': 'm/d/yyyy',
 	  'autoclose': true
 	});
 	$('#book_time, #arrival_time, #departure_time').timepicker();
-
+*/
 
 
 
