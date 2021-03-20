@@ -53,6 +53,7 @@ sass:
 
 plugins:
   - jekyll-analytics
+  - jekyll-image-size
   - jekyll-multiple-languages-plugin
   - jekyll-seo-tag
   - jekyll-sitemap

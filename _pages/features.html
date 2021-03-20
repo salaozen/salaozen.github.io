@@ -16,7 +16,8 @@ permalink: /features
       </div>
       <div class="row ftco-animate fadeInUp ftco-animated">
         <div class="col-sm-6 {% if image_last == true %}order-first{% else %}order-last{% endif %} col-img">
-          <img src="{{ "/assets/images/features_" | append: section | append: ".png" | prepend: site.baseurl_root }}" class="img-fluid" alt="" loading="lazy">
+          {% assign image = "/assets/images/features_" | append: section | append: ".png" %}
+          {% imagesize image:img class='img-fluid' loading='lazy' alt='' %}
         </div>
         <div class="col-sm-6 {% if image_last == false %}order-first{% else %}order-last{% endif %}">
           <ul class="fa-ul">

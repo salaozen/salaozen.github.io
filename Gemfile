@@ -7,6 +7,7 @@ gem 'jekyll-theme-minimal'
 
 group :jekyll_plugins do
   gem 'jekyll-analytics'
+  gem 'jekyll-image-size'
   gem 'jekyll-multiple-languages-plugin'
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'

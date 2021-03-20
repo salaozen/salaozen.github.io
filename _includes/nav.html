@@ -2,7 +2,7 @@
     <div class="container">
       <a class="navbar-brand" href="./">
         <div class="navbar-brand-img">
-          <img src="{{ "/assets/images/logo.png" | prepend: site.baseurl_root }}" style="max-width: 100px; height: auto;" class="animate" alt="">
+          {% imagesize /assets/images/logo.png:img style='max-width: 100px; height: auto;' class='animate' alt='' %}
         </div>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
