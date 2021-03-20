@@ -351,7 +351,7 @@
 		  console.log('nice');
 		})
 	};
-	OnePageNav();
+	//OnePageNav();
 
 
 	/* magnific popup
