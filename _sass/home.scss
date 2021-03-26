@@ -9,41 +9,78 @@
     padding-top: 0.5em;
   }
 
-  .logos {
+  .home-customers {
     align-items: center !important;
     justify-content: center !important;
 
-    img {
-      -webkit-filter: brightness(0.45);
-      filter: brightness(0.45);
+    top: 0;
+    left: 54%;
+    text-align: left;
+    height: 60px;
+    overflow: hidden;
 
-      //-webkit-animation: slide-top 0.5s steps(10, end) 10s infinite both;
-      //animation: slide-top 0.5s steps(10, end) 10s infinite both;        
+    .customers {
+      animation: rotate 20s ease-in-out infinite;
+      -webkit-animation-fill-mode: forwards;
+      -moz-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+      .customer {
+        align-items: center !important;
+        justify-content: center !important;
+        display: block;
+        min-height: 90px;
+      }
     }
   }
+
+  img {
+    -webkit-filter: brightness(0.45);
+    filter: brightness(0.45);
+  }
 }
 
-@-webkit-keyframes slide-top {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-            opacity: 1; 
+@keyframes rotate {
+  from, to {
+    transform: translateY(0);
   }
-  100% {
-    -webkit-transform: translateY(-50px);
-            transform: translateY(-50px);
-            opacity: 0; 
+  25% {
+    transform: translateY(-90px);
+  }
+  50% {
+    transform: translateY(-180px);
+  }
+  75% {
+    transform: translateY(-270px);
+  }
+  99% {
+    transform: translateY(-360px);
   }
 }
-@keyframes slide-top {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-            opacity: 1; 
-  }
-  100% {
-    -webkit-transform: translateY(-50px);
-            transform: translateY(-50px);
-            opacity: 0; 
-  }
+
+@-webkit-keyframes bg {
+  from, to { background: yellow; }
+  33% { background: green; }
+  66% { background: blue; }
+}
+
+.c-carousel-container {
+  height: 90px;
+  margin: 0 auto;
+  width: 960px;
+}
+
+.c-carousel-container .c-carousel-item {
+  align-items: center;
+  display: flex;
+  font-size: 64px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.c-carousel-container .c-carousel-item:nth-child(odd) {
+  
+}
+
+.c-carousel-container .c-carousel-item:nth-child(even) {
+  
 }
