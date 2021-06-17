@@ -1,14 +1,14 @@
 setup:
-	bundle install
+	arch -arch x86_64 bundle install
 
 run:
-	bundle exec jekyll serve -l
+	arch -arch x86_64 bundle exec jekyll serve -l
 
 run_production:
-	JEKYLL_ENV=production bundle exec jekyll serve
+	JEKYLL_ENV=production arch -arch x86_64 bundle exec jekyll serve
 
 stop:
 	kill $(lsof -ti:4000)
 
 build:
-	bundle exec jekyll build
+	arch -arch x86_64 bundle exec jekyll build
